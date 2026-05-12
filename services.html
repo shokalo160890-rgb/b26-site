@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Услуги и сотрудничество – B26</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .pricing {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 24px;
+    }
+    .pricing .package {
+      flex: 1 1 300px;
+      background: var(--surface);
+      border-radius: 8px;
+      padding: 24px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+      position: relative;
+    }
+    .package.popular::before {
+      content: 'Популярно';
+      position: absolute;
+      top: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--primary);
+      color: #fff;
+      padding: 4px 12px;
+      border-radius: 4px;
+      font-size: 0.75rem;
+    }
+    .package h3 {
+      margin-top: 0;
+      margin-bottom: 12px;
+      font-size: 1.4rem;
+      color: var(--text-dark);
+    }
+    .package .price {
+      font-size: 2rem;
+      color: var(--primary);
+      margin: 16px 0;
+    }
+    .package ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 20px;
+      color: var(--text-light);
+    }
+    .package li {
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar container">
+      <a href="index.html" class="logo">B26</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="portfolio.html">Портфолио</a></li>
+        <li><a href="services.html">Услуги</a></li>
+        <li><a href="blog.html">Блог</a></li>
+        <li><a href="about.html">Обо мне</a></li>
+        <li><a href="contact.html" class="cta small">Связаться</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <div class="container">
+        <h1>Услуги и сотрудничество</h1>
+        <p>Выберите подходящий формат или расскажите о своей задаче — я предложу оптимальное решение.</p>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <h2>Пакеты услуг</h2>
+      <div class="pricing">
+        <div class="package">
+          <h3>Базовый</h3>
+          <p class="price">€499+</p>
+          <ul>
+            <li>Одностраничный сайт или лендинг</li>
+            <li>Адаптивный дизайн</li>
+            <li>Базовая оптимизация SEO</li>
+          </ul>
+          <a href="#" class="cta">Заказать</a>
+        </div>
+        <div class="package popular">
+          <h3>Стандарт</h3>
+          <p class="price">€1499+</p>
+          <ul>
+            <li>Сайт до 5 страниц</li>
+            <li>Уникальный дизайн</li>
+            <li>Интеграция формы заявки</li>
+            <li>Базовая аналитика</li>
+          </ul>
+          <a href="#" class="cta">Заказать</a>
+        </div>
+        <div class="package">
+          <h3>Премиум</h3>
+          <p class="price">€2999+</p>
+          <ul>
+            <li>Индивидуальный проект «под ключ»</li>
+            <li>Профессиональный UX/UI‑дизайн</li>
+            <li>Блог, портфолио, CMS</li>
+            <li>Настройка маркетинговых и CRM‑инструментов</li>
+            <li>Поддержка после запуска</li>
+          </ul>
+          <a href="#" class="cta">Заказать</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2>Процесс сотрудничества</h2>
+      <ol style="max-width:700px;margin:0 auto;color:#4b5563;">
+        <li>Вы оставляете заявку и описываете задачу.</li>
+        <li>Мы обсуждаем детали и подбираем лучшее решение.</li>
+        <li>Я готовлю предложение и таймлайн работ.</li>
+        <li>После согласования подписываем договор и приступаем к реализации.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2>FAQ</h2>
+      <div class="services service-list">
+        <div class="service-item">
+          <h3>Сколько времени занимает разработка?</h3>
+          <p>Это зависит от объёма работ. Минимальные проекты занимают от 1‑2 недель, крупные — до нескольких месяцев.</p>
+        </div>
+        <div class="service-item">
+          <h3>Какие гарантии вы предоставляете?</h3>
+          <p>Я работаю по договору, предусматриваю правки и поддержку в течение 1 месяца после запуска.</p>
+        </div>
+        <div class="service-item">
+          <h3>Как определяется стоимость?</h3>
+          <p>Стоимость зависит от сложности, сроков и требований. После первичного обсуждения я отправляю детальное коммерческое предложение.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="final-cta">
+    <h2>Готовы начать?</h2>
+    <p>Опишите вашу задачу — и мы обсудим её в удобное для вас время.</p>
+    <a href="#" class="cta">Оставить заявку</a>
+  </section>
+
+  <footer>
+    © 2026 B26. Все права защищены.
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

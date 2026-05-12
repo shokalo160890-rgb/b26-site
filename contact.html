@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Связаться – B26</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .contact-form {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      background: var(--surface);
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+    .contact-form label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 600;
+      color: var(--text-dark);
+    }
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border: 1px solid var(--border-color);
+      border-radius: 4px;
+      font-size: 1rem;
+      color: var(--text-dark);
+      background-color: var(--secondary);
+    }
+    .contact-form button {
+      display: inline-block;
+      background-color: var(--primary);
+      color: #fff;
+      padding: 12px 32px;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+    .contact-form button:hover {
+      background-color: var(--primary-dark);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar container">
+      <a href="index.html" class="logo">B26</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="portfolio.html">Портфолио</a></li>
+        <li><a href="services.html">Услуги</a></li>
+        <li><a href="blog.html">Блог</a></li>
+        <li><a href="about.html">Обо мне</a></li>
+        <li><a href="contact.html" class="cta small">Связаться</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <div class="container">
+        <h1>Свяжитесь со мной</h1>
+        <p>Заполните форму, и я свяжусь с вами в ближайшее время.</p>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <div class="contact-form">
+        <form action="mailto:hello@example.com" method="post" enctype="text/plain">
+          <label for="name">Имя</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Сообщение</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+          <button type="submit">Отправить</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 B26. Все права защищены.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
