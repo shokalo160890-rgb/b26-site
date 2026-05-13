@@ -1,1 +1,1 @@
-// Compatibility alias. Main script is scripts.js.
+// fallback: main logic is in scripts.js
