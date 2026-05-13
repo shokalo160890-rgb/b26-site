@@ -1,40 +1,52 @@
-# Oleksandr Shokalo
+# B26 Site
 
-**Web Product Developer + AI Automation**
+**Мини-сайты под смартфон**
 
-Собираю быстрые, понятные и production-ready веб-решения, которые можно не только показать, но и спокойно поддерживать дальше.
+Одна ссылка вместо кучи объяснений.
 
-## Чем занимаюсь
+## Суть
 
-- Product-minded web development: frontend + backend + delivery
-- AI-персонализация и behavioral profiling
-- Автоматизация пайплайнов: CLI + Docker
-- Dev-инфраструктура и self-hosted стеки
-- GitHub-ready сайты, README, deploy и документация
+Каждый человек со смартфоном может иметь свой мини-сайт.
 
-## Ключевой стек
+Мини-сайт работает как:
 
-- **Frontend:** HTML, CSS, JavaScript, Tailwind, Next.js
-- **Backend / AI:** Python, FastAPI, Ollama, Whisper
-- **Infra:** Docker, Traefik, Portainer, GitHub Actions
-- **Другое:** privacy-first architecture, CWV, SEO, maintainability
+- визитка
+- портфолио
+- прайс
+- контактная страница
+- продавец
+- QR-страница
 
-## Посмотреть в первую очередь
+## Для кого
 
-- **[Miniclip AI Pipeline](https://shokalo160890-rgb.github.io/b26-site/portfolio-item1.html)** — production видео-автоматизация
-- **[Adaptive User Profile](https://shokalo160890-rgb.github.io/b26-site/portfolio-item2.html)** — гибридная система персонализации
-- **[Local Dev-Cloud](https://shokalo160890-rgb.github.io/b26-site/portfolio-item3.html)** — self-hosted инфраструктура
-- **[Сайт-портфолио](https://shokalo160890-rgb.github.io/b26-site/)** — этот проект
+- мастер по ремонту
+- строитель
+- клининг
+- автомеханик
+- парикмахер
+- массажист
+- репетитор
+- фотограф
+- водитель / доставка
+- фрилансер
+- малый бизнес
+- человек в поиске работы
 
-## Сейчас в фокусе
+## Главная ценность
 
-- Улучшение личного бренда и привлечение проектов / ролей
-- Новые open-source инструменты на базе Adaptive Profile
-- Web Product Developer + AI Automation positioning
+Клиенту не нужно долго объяснять, кто он и что делает.
 
-## Контакт
+Он отправляет одну ссылку в WhatsApp, Telegram, Instagram или TikTok — и человек сразу видит услуги, фото, цены, контакты и кнопку связи.
 
-- Email: shokalo160890@gmail.com
-- Telegram: ссылка в шапке сайта
+## Стек
 
-**Web Product Developer + AI Automation** — быстро от задачи до релиза без лишней сложности.
+- HTML
+- CSS
+- JavaScript
+- GitHub Pages
+- SEO-база
+- Mobile-first структура
+
+## Позиционирование
+
+**Мини-сайт для человека со смартфоном. Одна ссылка вместо кучи объяснений.**
