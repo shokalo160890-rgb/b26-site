@@ -1,88 +1,86 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Обо мне – B26</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#070b12" />
+  <meta name="description" content="Adaptive behavioral profile architecture." />
+  <title>Архитектура — B26 AI Systems</title>
+  <meta property="og:title" content="Архитектура — B26 AI Systems" />
+  <meta property="og:description" content="Adaptive behavioral profile architecture." />
+  <meta property="og:type" content="website" />
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
-  <header>
-    <nav class="navbar container">
-      <a href="index.html" class="logo">B26</a>
-      <ul class="nav-links">
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="portfolio.html">Портфолио</a></li>
-        <li><a href="services.html">Услуги</a></li>
-        <li><a href="blog.html">Блог</a></li>
-        <li><a href="about.html">Обо мне</a></li>
-        <li><a href="contact.html" class="cta small">Связаться</a></li>
-      </ul>
+<body class="site-body">
+<div class="noise"></div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">B26</span>
+      <span class="brand-text"><strong>B26 AI Systems</strong><small data-i18n="brand_subtitle">adaptive AI architecture</small></span>
+    </a>
+    <nav class="desktop-nav">
+      <a href="index.html" data-i18n="nav_home">Главная</a>
+      <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+      <a href="services.html" data-i18n="nav_services">Услуги</a>
+      <a href="blog.html" data-i18n="nav_research">Research</a>
+      <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+      <button class="nav-cta nav-cta-btn" type="button" onclick="toggleModal('contactPanel')" data-i18n="nav_contact">Связаться</button>
     </nav>
-    <div class="hero">
-      <div class="container">
-        <h1>Привет, я B26</h1>
-        <p>Full‑stack разработчик и дизайнер, который превращает идеи в эффективные цифровые продукты.</p>
-        <a href="services.html" class="cta">Нанять меня</a>
+    <div class="header-controls">
+      <div class="lang-switch" aria-label="Language switcher">
+        <button class="lang-btn" data-lang="auto" type="button">Auto</button>
+        <button class="lang-btn" data-lang="ru" type="button">RU</button>
+        <button class="lang-btn" data-lang="en" type="button">EN</button>
+        <button class="lang-btn" data-lang="de" type="button">DE</button>
       </div>
+      <button class="theme-toggle" id="themeToggle" aria-label="Theme" type="button"><span>◐</span><span class="theme-toggle-label">Auto</span></button>
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Открыть меню" type="button">☰</button>
     </div>
-  </header>
+  </div>
+  <div class="mobile-nav" id="mobileNav">
+    <a href="index.html" data-i18n="nav_home">Главная</a>
+    <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+    <a href="services.html" data-i18n="nav_services">Услуги</a>
+    <a href="blog.html" data-i18n="nav_research">Research</a>
+    <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+    <button class="mobile-nav-button" type="button" onclick="toggleModal('contactPanel')" data-i18n="nav_contact">Связаться</button>
+    <div class="mobile-controls-stack"><div class="lang-switch lang-switch-mobile" aria-label="Language switcher"><button class="lang-btn" data-lang="auto" type="button">Auto</button><button class="lang-btn" data-lang="ru" type="button">RU</button><button class="lang-btn" data-lang="en" type="button">EN</button><button class="lang-btn" data-lang="de" type="button">DE</button></div></div>
+  </div>
+</header>
 
-  <section>
-    <div class="container">
-      <h2>Моя история</h2>
-      <p>
-        Я занимаюсь разработкой и дизайном более 5 лет, работая как с небольшими стартапами,
-        так и с крупными компаниями. В каждом проекте я ищу баланс между эстетикой и
-        функциональностью, основываясь на данных и психологии восприятия.
-      </p>
-      <p>
-        Мой путь начался с увлечения веб‑технологиями ещё в университете. Со временем я
-        освоил полный стек разработки: от создания пользовательских интерфейсов до построения
-        архитектуры на серверной стороне. Опыт работы в командах разного размера помог мне
-        выработать гибкий подход и способность говорить на языке бизнеса.
-      </p>
-    </div>
-  </section>
+<main id="top">
+<section class="hero-section compact"><div class="container reveal"><div class="eyebrow"><span class="pulse"></span><span>Architecture</span></div><h1>Обновляемый поведенческий профиль пользователя</h1><p class="hero-text">Гибридная архитектура персонализации: явные инструкции текущего диалога → session‑state → устойчивый профиль → общие шаблоны ответа.</p></div></section>
+<section class="section-block"><div class="container proof-layout"><div class="article reveal"><h2>Что строится</h2><p>Операционная модель профиля, которая хранит не «психологический портрет», а наблюдаемые предпочтения: прямота, детализация, структура, code‑first режим, типы задач, язык, tolerance к уточнениям.</p></div><div class="proof-panel reveal"><div class="proof-row"><strong>explicit_override</strong><span>true</span></div><div class="proof-row"><strong>confidence</strong><span>≥ 0.70</span></div><div class="proof-row"><strong>evidence_count</strong><span>≥ 3</span></div><div class="proof-row"><strong>contradiction_rate</strong><span>control</span></div></div></div></section>
+<section class="section-block muted-section"><div class="container cards-grid cards-3"><article class="info-card reveal"><h3>Signal Layer</h3><p>Разбор явных команд, стиля общения, типов задач, outcome‑сигналов и повторяющихся тем.</p></article><article class="info-card reveal"><h3>Profile Layer</h3><p>Раздельное хранение identity‑layer и behavior‑layer, псевдонимизация и минимизация данных.</p></article><article class="info-card reveal"><h3>Evaluation Layer</h3><p>Task completion, personalization, naturalness, coherence, efficiency и drift alerts.</p></article></div></section>
+<section class="section-block"><div class="container article reveal"><h2>Profile schema</h2><div class="table-wrap"><table><tr><th>Блок</th><th>Поля</th><th>Влияние</th></tr><tr><td>Style</td><td>directness, detail_tolerance, structure_strictness</td><td>Длина, порядок блоков, наличие объяснений</td></tr><tr><td>Priorities</td><td>quality, speed, automation, time_saving</td><td>Один лучший путь, готовый код, минимум трения</td></tr><tr><td>Tasks</td><td>code, instructions, strategy, research</td><td>Шаблон ответа и глубина реализации</td></tr><tr><td>Meta</td><td>confidence, evidence_count, last_updated</td><td>Когда обновлять долгосрочный профиль</td></tr></table></div></div></section>
+</main>
 
-  <section>
-    <div class="container">
-      <h2>Навыки и подход</h2>
-      <div class="service-list">
-        <div class="service-item">
-          <img src="images/icon-web.png" alt="Frontend" class="service-icon" />
-          <h3>Frontend</h3>
-          <p>HTML5, CSS3, JavaScript, React, Vue, адаптивная верстка</p>
-        </div>
-        <div class="service-item">
-          <img src="images/icon-consulting.png" alt="Backend" class="service-icon" />
-          <h3>Backend</h3>
-          <p>Node.js, Python (Django/Flask), REST API, базы данных</p>
-        </div>
-        <div class="service-item">
-          <img src="images/icon-design.png" alt="Дизайн" class="service-icon" />
-          <h3>Дизайн</h3>
-          <p>Figma, Adobe XD, анимации, дизайн систем</p>
-        </div>
-      </div>
-      <p style="margin-top:40px;">
-        Мой подход строится на внимании к деталям, понимании аудитории и постоянном
-        экспериментировании. Я верю, что хорошо продуманный опыт пользователя и
-        эмоциональная связь с продуктом определяют его успех.
-      </p>
-    </div>
-  </section>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div><strong>B26 AI Systems</strong><p>Adaptive AI · LLM personalization · automation infrastructure.</p></div>
+    <div class="footer-links"><a href="portfolio.html">Кейсы</a><a href="services.html">Услуги</a><a href="blog.html">Research</a><a href="contact.html">Контакт</a></div>
+  </div>
+</footer>
+<div class="overlay" id="overlay" onclick="closeAllModals()"></div>
+<div class="modal-window" id="contactPanel" role="dialog" aria-modal="true" aria-label="Contact">
+  <button class="modal-close" type="button" onclick="closeAllModals()">×</button>
+  <h2 data-i18n="contact_modal_title">Связаться</h2>
+  <p class="modal-text" data-i18n="contact_modal_text">Опиши задачу: текущий сайт, желаемый результат, GitHub/ZIP, сроки.</p>
+  <div class="modal-buttons">
+    <a data-link-key="email" href="#">✉ Email</a>
+    <a data-link-key="telegram" href="#" target="_blank" rel="noopener">↗ Telegram</a>
+    <a data-link-key="whatsapp" href="#" target="_blank" rel="noopener">☏ WhatsApp</a>
+  </div>
+</div>
+<button class="floating-contact pulse-contact" type="button" onclick="toggleModal('contactPanel')" aria-label="Contact">✉</button>
+<div class="mobile-tiktok-bar">
+  <a class="mobile-tiktok-link mobile-tiktok-primary" href="portfolio.html">Кейсы</a>
+  <a class="mobile-tiktok-link mobile-tiktok-secondary" href="services.html">Услуги</a>
+  <button class="mobile-tiktok-link mobile-tiktok-secondary" onclick="toggleModal('contactPanel')">Контакт</button>
+</div>
+<script src="scripts.js"></script>
 
-  <section class="final-cta">
-    <h2>Вам нужен специалист?</h2>
-    <p>Готов обсудить вашу идею и предложить лучшее решение.</p>
-    <a href="services.html" class="cta">Связаться</a>
-  </section>
-
-  <footer>
-    © 2026 B26. Все права защищены.
-  </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>

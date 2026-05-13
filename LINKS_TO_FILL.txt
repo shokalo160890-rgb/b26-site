@@ -1,0 +1,10 @@
+Open scripts.js and replace this block:
+
+const SITE_CONFIG = {
+  telegram: "https://t.me/your_channel",
+  whatsapp: "https://wa.me/491234567890",
+  email: "you@example.com",
+  paypal: "https://paypal.me/yourname",
+  bitcoin: "bitcoin:YOUR_BTC_ADDRESS",
+  card: "https://your-payment-link.example"
+};

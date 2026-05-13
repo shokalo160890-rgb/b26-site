@@ -1,94 +1,81 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Проект Gamma – кейс B26</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#070b12" />
+  <meta name="description" content="Local dev-cloud infrastructure case study." />
+  <title>Local Dev-Cloud — B26</title>
+  <meta property="og:title" content="Local Dev-Cloud — B26" />
+  <meta property="og:description" content="Local dev-cloud infrastructure case study." />
+  <meta property="og:type" content="website" />
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
-  <header>
-    <nav class="navbar container">
-      <a href="index.html" class="logo">B26</a>
-      <ul class="nav-links">
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="portfolio.html">Портфолио</a></li>
-        <li><a href="services.html">Услуги</a></li>
-        <li><a href="blog.html">Блог</a></li>
-        <li><a href="about.html">Обо мне</a></li>
-        <li><a href="contact.html" class="cta small">Связаться</a></li>
-      </ul>
+<body class="site-body">
+<div class="noise"></div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">B26</span>
+      <span class="brand-text"><strong>B26 AI Systems</strong><small data-i18n="brand_subtitle">adaptive AI architecture</small></span>
+    </a>
+    <nav class="desktop-nav">
+      <a href="index.html" data-i18n="nav_home">Главная</a>
+      <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+      <a href="services.html" data-i18n="nav_services">Услуги</a>
+      <a href="blog.html" data-i18n="nav_research">Research</a>
+      <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+      <button class="nav-cta nav-cta-btn" type="button" onclick="toggleModal('contactPanel')" data-i18n="nav_contact">Связаться</button>
     </nav>
-    <div class="hero" style="background-image:url('images/portfolio1.png'); padding:80px 20px;">
-      <div class="container">
-        <h1>Проект Gamma</h1>
-        <p>Повышение конверсии на 20 % для маркетплейса</p>
+    <div class="header-controls">
+      <div class="lang-switch" aria-label="Language switcher">
+        <button class="lang-btn" data-lang="auto" type="button">Auto</button>
+        <button class="lang-btn" data-lang="ru" type="button">RU</button>
+        <button class="lang-btn" data-lang="en" type="button">EN</button>
+        <button class="lang-btn" data-lang="de" type="button">DE</button>
       </div>
+      <button class="theme-toggle" id="themeToggle" aria-label="Theme" type="button"><span>◐</span><span class="theme-toggle-label">Auto</span></button>
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Открыть меню" type="button">☰</button>
     </div>
-  </header>
+  </div>
+  <div class="mobile-nav" id="mobileNav">
+    <a href="index.html" data-i18n="nav_home">Главная</a>
+    <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+    <a href="services.html" data-i18n="nav_services">Услуги</a>
+    <a href="blog.html" data-i18n="nav_research">Research</a>
+    <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+    <button class="mobile-nav-button" type="button" onclick="toggleModal('contactPanel')" data-i18n="nav_contact">Связаться</button>
+    <div class="mobile-controls-stack"><div class="lang-switch lang-switch-mobile" aria-label="Language switcher"><button class="lang-btn" data-lang="auto" type="button">Auto</button><button class="lang-btn" data-lang="ru" type="button">RU</button><button class="lang-btn" data-lang="en" type="button">EN</button><button class="lang-btn" data-lang="de" type="button">DE</button></div></div>
+  </div>
+</header>
 
-  <section>
-    <div class="container">
-      <h2>Описание заказчика и задачи</h2>
-      <p>Заказчик — крупный маркетплейс с высокой посещаемостью. Основная задача: увеличить
-         конверсию посетителей в активных покупателей, улучшить удобство поиска и оформления
-         заказа.</p>
-    </div>
-  </section>
+<main id="top"><section class="hero-section compact"><div class="container reveal"><div class="eyebrow"><span class="pulse"></span><span>Case · Dev‑Cloud</span></div><h1>Local Dev‑Cloud Infrastructure</h1><p class="hero-text">One-address local startup stack for services, AI APIs, automation and deployment experiments.</p></div></section><section class="section-block"><div class="container article reveal"><h2>Задача</h2><p>Поднять локальный dev-cloud: reverse proxy, container panel, automation, databases and AI backend.</p><h2>Stack</h2><p>Docker Compose, Traefik, Portainer, n8n, Redis, Postgres, Ollama, API service, Cloudflare Tunnel.</p><h2>Результат</h2><p>Быстрый self-hosted контур для разработки, тестирования и демонстрации AI/web систем.</p><div class="hero-actions"><a class="btn-primary-custom" href="portfolio.html">Все кейсы</a><button class="btn-secondary-custom" onclick="toggleModal('contactPanel')">Обсудить похожий проект</button></div></div></section></main>
 
-  <section>
-    <div class="container">
-      <h2>Роль и команда</h2>
-      <p>Я руководил фронтенд‑командой из трёх разработчиков и тесно сотрудничал с дизайнером
-         по UX. Также подключались специалисты по аналитике и управлению продуктом.
-      </p>
-    </div>
-  </section>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div><strong>B26 AI Systems</strong><p>Adaptive AI · LLM personalization · automation infrastructure.</p></div>
+    <div class="footer-links"><a href="portfolio.html">Кейсы</a><a href="services.html">Услуги</a><a href="blog.html">Research</a><a href="contact.html">Контакт</a></div>
+  </div>
+</footer>
+<div class="overlay" id="overlay" onclick="closeAllModals()"></div>
+<div class="modal-window" id="contactPanel" role="dialog" aria-modal="true" aria-label="Contact">
+  <button class="modal-close" type="button" onclick="closeAllModals()">×</button>
+  <h2 data-i18n="contact_modal_title">Связаться</h2>
+  <p class="modal-text" data-i18n="contact_modal_text">Опиши задачу: текущий сайт, желаемый результат, GitHub/ZIP, сроки.</p>
+  <div class="modal-buttons">
+    <a data-link-key="email" href="#">✉ Email</a>
+    <a data-link-key="telegram" href="#" target="_blank" rel="noopener">↗ Telegram</a>
+    <a data-link-key="whatsapp" href="#" target="_blank" rel="noopener">☏ WhatsApp</a>
+  </div>
+</div>
+<button class="floating-contact pulse-contact" type="button" onclick="toggleModal('contactPanel')" aria-label="Contact">✉</button>
+<div class="mobile-tiktok-bar">
+  <a class="mobile-tiktok-link mobile-tiktok-primary" href="portfolio.html">Кейсы</a>
+  <a class="mobile-tiktok-link mobile-tiktok-secondary" href="services.html">Услуги</a>
+  <button class="mobile-tiktok-link mobile-tiktok-secondary" onclick="toggleModal('contactPanel')">Контакт</button>
+</div>
+<script src="scripts.js"></script>
 
-  <section>
-    <div class="container">
-      <h2>Процесс решения</h2>
-      <p>
-        Начали с исследования потребностей аудитории, опросов и анализа данных о поведении
-        покупателей. На основе инсайтов перестроили структуру карточек товаров, упростили
-        фильтрацию и добавили микровзаимодействия для подчеркивания стоимости. Внедрили
-        программу рекомендаций и персональные предложения на главной.
-      </p>
-    </div>
-  </section>
-
-  <section>
-    <div class="container">
-      <h2>Результаты</h2>
-      <p>
-        Конверсия в покупки выросла на 20 %, средний чек увеличился на 15 %. Показатель
-        возврата клиентов улучшился на 10 %. Улучшения UX позволили сократить время
-        оформления заказа и снизить количество брошенных корзин.
-      </p>
-    </div>
-  </section>
-
-  <section>
-    <div class="container">
-      <h2>Выводы и инсайты</h2>
-      <p>
-        Грамотно структурированные карточки товара и упрощённый процесс покупки напрямую
-        влияют на конверсию. Пользователям важно ощущать комфорт и контроль на всех
-        этапах взаимодействия с продуктом.
-      </p>
-    </div>
-  </section>
-
-  <section class="final-cta">
-    <h2>Хотите увеличить конверсию?</h2>
-    <p>Давайте обсудим вашу ситуацию и найдем пути роста.</p>
-    <a href="services.html" class="cta">Связаться</a>
-  </section>
-
-  <footer>
-    © 2026 B26. Все права защищены. <a href="portfolio.html">Вернуться к портфолио</a>
-  </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
