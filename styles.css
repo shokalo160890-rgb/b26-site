@@ -1555,3 +1555,96 @@ body.light-theme .contact-form textarea::placeholder {
     height: 56px !important;
   }
 }
+
+
+/* FINAL POLISH: brand + single floating + readable light buttons */
+
+.brand {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  text-decoration: none !important;
+  color: inherit !important;
+  flex-shrink: 0 !important;
+}
+
+.logo {
+  width: 42px !important;
+  height: 42px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 14px !important;
+  background: linear-gradient(135deg, #4f7cff, #8b5cf6) !important;
+  color: #fff !important;
+  font-weight: 900 !important;
+}
+
+.brand-text {
+  display: grid !important;
+  gap: 2px !important;
+}
+
+.brand-text strong {
+  font-size: 15px !important;
+  line-height: 1 !important;
+  color: inherit !important;
+}
+
+.brand-text small {
+  font-size: 12px !important;
+  line-height: 1.1 !important;
+  color: #94a3b8 !important;
+}
+
+.floating-contact-widget {
+  position: fixed !important;
+  right: 28px !important;
+  bottom: 28px !important;
+  z-index: 999999 !important;
+}
+
+.floating-contact-btn {
+  width: 58px !important;
+  height: 58px !important;
+  border-radius: 999px !important;
+  border: 0 !important;
+  background: #4f7cff !important;
+  color: #fff !important;
+  font-size: 20px !important;
+  font-weight: 900 !important;
+  cursor: pointer !important;
+  box-shadow: 0 10px 22px rgba(79,124,255,.22) !important;
+}
+
+body.light-theme .cta,
+body.light-theme .btn-primary-custom,
+body.light-theme .nav-cta,
+body.light-theme .nav-cta-btn {
+  color: #ffffff !important;
+  background: #2563eb !important;
+  border-color: #2563eb !important;
+}
+
+body.light-theme .cta.secondary,
+body.light-theme .btn-secondary-custom {
+  color: #1e3a8a !important;
+  background: #ffffff !important;
+  border: 1px solid rgba(37,99,235,.38) !important;
+}
+
+@media (max-width: 760px) {
+  .brand-text {
+    display: none !important;
+  }
+
+  .floating-contact-widget {
+    right: 18px !important;
+    bottom: 18px !important;
+  }
+
+  .floating-contact-btn {
+    width: 56px !important;
+    height: 56px !important;
+  }
+}

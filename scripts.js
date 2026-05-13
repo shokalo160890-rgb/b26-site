@@ -1,7 +1,7 @@
 
 const SITE_CONFIG = {
   telegram: "https://t.me/shokalo160890",
-  whatsapp: "https://wa.me/?text=" + encodeURIComponent("Здравствуйте, хочу заказать мини-сайт"),
+  whatsapp: "https://wa.me/?text=" + encodeURIComponent("Здравствуйте, хочу заказать мини-сайт") + encodeURIComponent("Здравствуйте, хочу заказать мини-сайт"),
   email: "shokalo160890@gmail.com"
 };
 
@@ -50,20 +50,7 @@ function getBrowserLang() {
   return "ru";
 }
 
-function applyNavLanguage() {
-  const lang = getBrowserLang();
-  const dict = NAV_DICT[lang] || NAV_DICT.ru;
-
-  document.querySelectorAll("[data-i18n]").forEach((el) => {
-    const key = el.dataset.i18n;
-    if (dict[key]) el.textContent = dict[key];
-  });
-
-  document.querySelectorAll(".clean-theme-toggle").forEach((btn) => {
-    const isLight = document.body.classList.contains("light-theme");
-    btn.textContent = isLight ? dict.theme_light : dict.theme_dark;
-  });
-}
+function applyNavLanguage() { return; }
 
 function wireLinks() {
   document.querySelectorAll("[data-link-key]").forEach((a) => {
