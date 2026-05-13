@@ -1,0 +1,792 @@
+==============================
+ FULL PROJECT FILE ANALYSIS
+ Project: /home/n1k0n/b26-site
+ Date: Mi 13. Mai 03:24:47 CEST 2026
+==============================
+
+==============================
+1. GIT STATUS
+==============================
+?? PROJECT_FULL_ANALYSIS_20260513_032447.txt
+
+==============================
+2. PROJECT TREE
+==============================
+.
+./404.html
+./about.html
+./blog.html
+./blog-post1.html
+./blog-post2.html
+./blog-post3.html
+./CHANGELOG.md
+./contact.html
+./.git
+./index.html
+./index.html.bak_20260513_023209
+./LINKS_TO_FILL.txt
+./portfolio.html
+./portfolio-item1.html
+./portfolio-item2.html
+./portfolio-item3.html
+./PROJECT_FULL_ANALYSIS_20260513_032447.txt
+./README.md
+./README.md.bak_20260513_023209
+./resume.html
+./robots.txt
+./script.js
+./scripts.js
+./services.html
+./sitemap.xml
+./styles.css
+
+==============================
+3. FILE SIZES
+==============================
+4,0K	./CHANGELOG.md
+4,0K	./LINKS_TO_FILL.txt
+4,0K	./PROJECT_FULL_ANALYSIS_20260513_032447.txt
+4,0K	./README.md
+4,0K	./README.md.bak_20260513_023209
+4,0K	./robots.txt
+4,0K	./script.js
+4,0K	./sitemap.xml
+8,0K	./404.html
+8,0K	./about.html
+8,0K	./blog.html
+8,0K	./blog-post1.html
+8,0K	./blog-post2.html
+8,0K	./blog-post3.html
+8,0K	./contact.html
+8,0K	./index.html
+8,0K	./portfolio.html
+8,0K	./portfolio-item1.html
+8,0K	./portfolio-item2.html
+8,0K	./portfolio-item3.html
+8,0K	./resume.html
+8,0K	./scripts.js
+8,0K	./services.html
+12K	./index.html.bak_20260513_023209
+24K	./styles.css
+
+==============================
+4. HTML FILES
+==============================
+./about.html
+./404.html
+./blog-post3.html
+./blog.html
+./portfolio.html
+./blog-post1.html
+./resume.html
+./index.html
+./services.html
+./blog-post2.html
+./contact.html
+./portfolio-item3.html
+./portfolio-item1.html
+./portfolio-item2.html
+
+==============================
+5. CSS FILES
+==============================
+./styles.css
+
+==============================
+6. JS FILES
+==============================
+./script.js
+./scripts.js
+
+==============================
+7. IMAGES
+==============================
+
+==============================
+8. SEO CHECK
+==============================
+--- Titles ---
+./about.html:8:  <title>Oleksandr Shokalo — Web Product Developer | Обо мне</title>
+./404.html:8:  <title>404 — Oleksandr Shokalo</title>
+./blog-post3.html:8:  <title>Privacy-First AI Profiling — B26</title>
+./blog.html:8:  <title>Research — Oleksandr Shokalo</title>
+./portfolio.html:8:  <title>Oleksandr Shokalo — Web Product Developer | Кейсы</title>
+./blog-post1.html:8:  <title>Почему статичные AI-профили не работают — B26</title>
+./resume.html:8:  <title>Резюме — Oleksandr Shokalo, Web Product Developer</title>
+./index.html:8:  <title>Oleksandr Shokalo — Web Product Developer + AI Automation</title>
+./services.html:8:  <title>Услуги — Oleksandr Shokalo, Web Product Developer</title>
+./blog-post2.html:8:  <title>Session-State vs Long-Term Memory — B26</title>
+./contact.html:8:  <title>Контакт — Oleksandr Shokalo</title>
+./portfolio-item3.html:8:  <title>Local Dev-Cloud — Oleksandr Shokalo | Web Product Developer</title>
+./portfolio-item1.html:8:  <title>Miniclip AI Pipeline — Oleksandr Shokalo | Web Product Developer</title>
+./portfolio-item2.html:8:  <title>Adaptive User Profile — Oleksandr Shokalo | Web Product Developer</title>
+
+--- Meta descriptions ---
+./about.html:7:  <meta name="description" content="Обо мне: Oleksandr Shokalo — Web Product Developer + AI Automation. Сайты, автоматизация, AI-инструменты, GitHub-ready проекты." />
+./404.html:7:  <meta name="description" content="Page not found" />
+./blog-post3.html:7:  <meta name="description" content="Privacy-first AI profiling principles." />
+./blog.html:7:  <meta name="description" content="Практические заметки по AI, web-архитектуре и автоматизации." />
+./portfolio.html:7:  <meta name="description" content="3 флагманских кейса: Miniclip AI Pipeline, Adaptive User Profile, Local Dev-Cloud." />
+./blog-post1.html:7:  <meta name="description" content="Why static user profiles fail in adaptive AI systems." />
+./resume.html:7:  <meta name="description" content="Резюме Oleksandr Shokalo — Web Product Developer: AI personalization, automation pipelines, production web." />
+./index.html:7:  <meta name="description" content="Web Product Developer + AI Automation. Создаю быстрые, понятные и готовые к запуску веб-решения с AI-инструментами и автоматизацией." />
+./services.html:7:  <meta name="description" content="Услуги Web Product Developer: быстрые production-ready веб-решения, AI-персонализация, автоматизация." />
+./blog-post2.html:7:  <meta name="description" content="Session-state and long-term memory architecture." />
+./contact.html:7:  <meta name="description" content="Contact Oleksandr Shokalo for AI architecture and website redesign." />
+./portfolio-item3.html:7:  <meta name="description" content="Self-hosted мини-облако для быстрой разработки и демонстрации AI/web проектов." />
+./portfolio-item1.html:7:  <meta name="description" content="Production-ready CLI pipeline для превращения длинного видео в готовый контент под несколько платформ." />
+./portfolio-item2.html:7:  <meta name="description" content="Гибридная система обновляемого поведенческого профиля для LLM-ассистентов." />
+
+--- Canonical ---
+
+--- Open Graph ---
+./404.html:9:  <meta property="og:title" content="404 — Oleksandr Shokalo" />
+./404.html:10:  <meta property="og:description" content="Page not found" />
+./404.html:11:  <meta property="og:type" content="website" />
+./blog-post3.html:9:  <meta property="og:title" content="Privacy-First AI Profiling — B26" />
+./blog-post3.html:10:  <meta property="og:description" content="Privacy-first AI profiling principles." />
+./blog-post3.html:11:  <meta property="og:type" content="website" />
+./blog.html:9:  <meta property="og:title" content="Research — Oleksandr Shokalo" />
+./blog.html:10:  <meta property="og:description" content="Практические заметки по AI, web-архитектуре и автоматизации." />
+./blog.html:11:  <meta property="og:type" content="website" />
+./portfolio.html:9:  <meta property="og:title" content="Oleksandr Shokalo — Web Product Developer | Кейсы" />
+./portfolio.html:10:  <meta property="og:description" content="3 флагманских кейса: Miniclip AI Pipeline, Adaptive User Profile, Local Dev-Cloud." />
+./blog-post1.html:9:  <meta property="og:title" content="Почему статичные AI-профили не работают — B26" />
+./blog-post1.html:10:  <meta property="og:description" content="Why static user profiles fail in adaptive AI systems." />
+./blog-post1.html:11:  <meta property="og:type" content="website" />
+./resume.html:9:  <meta property="og:title" content="Резюме — Oleksandr Shokalo, Web Product Developer" />
+./resume.html:10:  <meta property="og:description" content="Резюме Oleksandr Shokalo — Web Product Developer: AI personalization, automation pipelines, production web." />
+./index.html:9:  <meta property="og:title" content="Oleksandr Shokalo — Web Product Developer | Oleksandr Shokalo" />
+./index.html:10:  <meta property="og:description" content="Web Product Developer. Быстро собираю понятные, быстрые и production-ready веб-решения с AI-персонализацией." />
+./services.html:9:  <meta property="og:title" content="Услуги — Oleksandr Shokalo, Web Product Developer" />
+./services.html:10:  <meta property="og:description" content="Услуги Web Product Developer: быстрые production-ready веб-решения, AI-персонализация, автоматизация." />
+./blog-post2.html:9:  <meta property="og:title" content="Session-State vs Long-Term Memory — B26" />
+./blog-post2.html:10:  <meta property="og:description" content="Session-state and long-term memory architecture." />
+./blog-post2.html:11:  <meta property="og:type" content="website" />
+./contact.html:9:  <meta property="og:title" content="Контакт — Oleksandr Shokalo" />
+./contact.html:10:  <meta property="og:description" content="Contact Oleksandr Shokalo for AI architecture and website redesign." />
+./contact.html:11:  <meta property="og:type" content="website" />
+./portfolio-item3.html:9:  <meta property="og:title" content="Local Dev-Cloud — Oleksandr Shokalo | Web Product Developer" />
+./portfolio-item3.html:10:  <meta property="og:description" content="Self-hosted мини-облако для быстрой разработки и демонстрации AI/web проектов." />
+./portfolio-item1.html:9:  <meta property="og:title" content="Miniclip AI Pipeline — Oleksandr Shokalo | Web Product Developer" />
+./portfolio-item1.html:10:  <meta property="og:description" content="Production-ready CLI pipeline для превращения длинного видео в готовый контент под несколько платформ." />
+./portfolio-item2.html:9:  <meta property="og:title" content="Adaptive User Profile — Oleksandr Shokalo | Web Product Developer" />
+./portfolio-item2.html:10:  <meta property="og:description" content="Гибридная система обновляемого поведенческого профиля для LLM-ассистентов." />
+
+==============================
+9. NAVIGATION / INTERNAL LINKS
+==============================
+./about.html:9:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./about.html:16:    <a class="brand" href="index.html">
+./about.html:21:      <a href="index.html" data-i18n="nav_home">Главная</a>
+./about.html:22:      <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./about.html:23:      <a href="services.html" data-i18n="nav_services">Услуги</a>
+./about.html:24:      <a href="blog.html" data-i18n="nav_research">Research</a>
+./about.html:25:      <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./about.html:40:    <a href="index.html" data-i18n="nav_home">Главная</a>
+./about.html:41:    <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./about.html:42:    <a href="services.html" data-i18n="nav_services">Услуги</a>
+./about.html:43:    <a href="blog.html" data-i18n="nav_research">Research</a>
+./about.html:44:    <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./about.html:123:    <a href="contact.html" class="cta">Обсудить задачу</a>
+./about.html:130:    <div class="footer-links"><a href="portfolio.html">Кейсы</a><a href="services.html">Услуги</a><a href="blog.html">Research</a><a href="contact.html">Контакт</a></div>
+./404.html:12:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./404.html:19:    <a class="brand" href="index.html">
+./404.html:24:      <a href="index.html" data-i18n="nav_home">Главная</a>
+./404.html:25:      <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./404.html:26:      <a href="services.html" data-i18n="nav_services">Услуги</a>
+./404.html:27:      <a href="blog.html" data-i18n="nav_research">Research</a>
+./404.html:28:      <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./404.html:43:    <a href="index.html" data-i18n="nav_home">Главная</a>
+./404.html:44:    <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./404.html:45:    <a href="services.html" data-i18n="nav_services">Услуги</a>
+./404.html:46:    <a href="blog.html" data-i18n="nav_research">Research</a>
+./404.html:47:    <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./404.html:53:<main id="top"><section class="hero-section compact"><div class="container reveal"><h1>Страница не найдена</h1><p class="hero-text">Вернуться на главную страницу.</p><a class="btn-primary-custom" href="index.html">На главную</a></div></section></main>
+./404.html:58:    <div class="footer-links"><a href="portfolio.html">Кейсы</a><a href="services.html">Услуги</a><a href="blog.html">Research</a><a href="contact.html">Контакт</a></div>
+./404.html:67:    <a data-link-key="email" href="#">✉ Email</a>
+./404.html:68:    <a data-link-key="telegram" href="#" target="_blank" rel="noopener">↗ Telegram</a>
+./404.html:69:    <a data-link-key="whatsapp" href="#" target="_blank" rel="noopener">☏ WhatsApp</a>
+./404.html:74:  <a class="mobile-tiktok-link mobile-tiktok-primary" href="portfolio.html">Кейсы</a>
+./404.html:75:  <a class="mobile-tiktok-link mobile-tiktok-secondary" href="services.html">Услуги</a>
+./blog-post3.html:12:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./blog-post3.html:19:    <a class="brand" href="index.html">
+./blog-post3.html:24:      <a href="index.html" data-i18n="nav_home">Главная</a>
+./blog-post3.html:25:      <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./blog-post3.html:26:      <a href="services.html" data-i18n="nav_services">Услуги</a>
+./blog-post3.html:27:      <a href="blog.html" data-i18n="nav_research">Research</a>
+./blog-post3.html:28:      <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./blog-post3.html:43:    <a href="index.html" data-i18n="nav_home">Главная</a>
+./blog-post3.html:44:    <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./blog-post3.html:45:    <a href="services.html" data-i18n="nav_services">Услуги</a>
+./blog-post3.html:46:    <a href="blog.html" data-i18n="nav_research">Research</a>
+./blog-post3.html:47:    <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./blog-post3.html:53:<main id="top"><section class="hero-section compact"><div class="container reveal"><div class="eyebrow"><span class="pulse"></span><span>Research</span></div><h1>Privacy-First AI Profiling</h1><p class="hero-text">Персонализация не должна превращаться в сбор лишних данных.</p></div></section><section class="section-block"><div class="container article reveal"><h2>Минимизация</h2><p>Хранить признаки и агрегаты вместо raw transcript. Identity и behavior держать отдельно.</p><h2>Запреты</h2><p>Не выводить и не хранить чувствительные категории: здоровье, политика, религия, этничность, интимная сфера.</p><h2>Контроль</h2><p>Нужны export/delete, retention policy, evidence fields, audit logs and drift monitoring.</p><div class="hero-actions"><a class="btn-primary-custom" href="blog.html">Все статьи</a></div></div></section></main>
+./blog-post3.html:58:    <div class="footer-links"><a href="portfolio.html">Кейсы</a><a href="services.html">Услуги</a><a href="blog.html">Research</a><a href="contact.html">Контакт</a></div>
+./blog-post3.html:67:    <a data-link-key="email" href="#">✉ Email</a>
+./blog-post3.html:68:    <a data-link-key="telegram" href="#" target="_blank" rel="noopener">↗ Telegram</a>
+./blog-post3.html:69:    <a data-link-key="whatsapp" href="#" target="_blank" rel="noopener">☏ WhatsApp</a>
+./blog-post3.html:74:  <a class="mobile-tiktok-link mobile-tiktok-primary" href="portfolio.html">Кейсы</a>
+./blog-post3.html:75:  <a class="mobile-tiktok-link mobile-tiktok-secondary" href="services.html">Услуги</a>
+./blog.html:12:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./blog.html:19:    <a class="brand" href="index.html">
+./blog.html:24:      <a href="index.html" data-i18n="nav_home">Главная</a>
+./blog.html:25:      <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./blog.html:26:      <a href="services.html" data-i18n="nav_services">Услуги</a>
+./blog.html:27:      <a href="blog.html" data-i18n="nav_research">Research</a>
+./blog.html:28:      <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./blog.html:43:    <a href="index.html" data-i18n="nav_home">Главная</a>
+./blog.html:44:    <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./blog.html:45:    <a href="services.html" data-i18n="nav_services">Услуги</a>
+./blog.html:46:    <a href="blog.html" data-i18n="nav_research">Research</a>
+./blog.html:47:    <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./blog.html:55:<section class="section-block"><div class="container cards-grid cards-3"><article class="info-card reveal"><div class="date">2026</div><h3>Почему статичные AI-профили не работают</h3><p>Почему фиксированный портрет хуже гибридной модели session-state + long-term profile.</p><a class="inline-link" href="blog-post1.html">Читать →</a></article><article class="info-card reveal"><div class="date">2026</div><h3>Session-State vs Long-Term Memory</h3><p>Как разделять временные сигналы и устойчивые предпочтения пользователя.</p><a class="inline-link" href="blog-post2.html">Читать →</a></article><article class="info-card reveal"><div class="date">2026</div><h3>Privacy-First AI Profiling</h3><p>Data minimisation, pseudonymisation, retention and auditability.</p><a class="inline-link" href="blog-post3.html">Читать →</a></article></div></section>
+./blog.html:61:    <div class="footer-links"><a href="portfolio.html">Кейсы</a><a href="services.html">Услуги</a><a href="blog.html">Research</a><a href="contact.html">Контакт</a></div>
+./blog.html:70:    <a data-link-key="email" href="#">✉ Email</a>
+./blog.html:71:    <a data-link-key="telegram" href="#" target="_blank" rel="noopener">↗ Telegram</a>
+./blog.html:72:    <a data-link-key="whatsapp" href="#" target="_blank" rel="noopener">☏ WhatsApp</a>
+./blog.html:77:  <a class="mobile-tiktok-link mobile-tiktok-primary" href="portfolio.html">Кейсы</a>
+./blog.html:78:  <a class="mobile-tiktok-link mobile-tiktok-secondary" href="services.html">Услуги</a>
+./portfolio.html:11:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./portfolio.html:17:    <a class="brand" href="index.html">
+./portfolio.html:22:      <a href="index.html" data-i18n="nav_home">Главная</a>
+./portfolio.html:23:      <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./portfolio.html:24:      <a href="services.html" data-i18n="nav_services">Услуги</a>
+./portfolio.html:25:      <a href="blog.html" data-i18n="nav_research">Research</a>
+./portfolio.html:26:      <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./portfolio.html:41:    <a href="index.html" data-i18n="nav_home">Главная</a>
+./portfolio.html:42:    <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./portfolio.html:43:    <a href="services.html" data-i18n="nav_services">Услуги</a>
+./portfolio.html:44:    <a href="blog.html" data-i18n="nav_research">Research</a>
+./portfolio.html:45:    <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./portfolio.html:60:      <article class="case-card info-card reveal"><div class="badge">AI Video</div><h3>Miniclip AI Pipeline</h3><p>Production CLI-пайплайн: Whisper, Ollama, клипы, SEO и контент под разные платформы.</p><a href="portfolio-item1.html">Открыть кейс →</a></article>
+./portfolio.html:61:      <article class="case-card info-card reveal"><div class="badge">LLM Memory</div><h3>Adaptive User Profile</h3><p>Архитектура персонализации с confidence, evidence_count и privacy-first контролем.</p><a href="portfolio-item2.html">Открыть кейс →</a></article>
+./portfolio.html:62:      <article class="case-card info-card reveal"><div class="badge">Infrastructure</div><h3>Local Dev-Cloud</h3><p>Docker-based dev-cloud с Traefik, Portainer, n8n, Redis, Postgres и AI-сервисами.</p><a href="portfolio-item3.html">Открыть кейс →</a></article>
+./portfolio.html:69:    <div class="footer-links"><a href="portfolio.html">Кейсы</a><a href="services.html">Услуги</a><a href="blog.html">Research</a><a href="contact.html">Контакт</a></div>
+./blog-post1.html:12:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./blog-post1.html:19:    <a class="brand" href="index.html">
+./blog-post1.html:24:      <a href="index.html" data-i18n="nav_home">Главная</a>
+./blog-post1.html:25:      <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./blog-post1.html:26:      <a href="services.html" data-i18n="nav_services">Услуги</a>
+./blog-post1.html:27:      <a href="blog.html" data-i18n="nav_research">Research</a>
+./blog-post1.html:28:      <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./blog-post1.html:43:    <a href="index.html" data-i18n="nav_home">Главная</a>
+./blog-post1.html:44:    <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./blog-post1.html:45:    <a href="services.html" data-i18n="nav_services">Услуги</a>
+./blog-post1.html:46:    <a href="blog.html" data-i18n="nav_research">Research</a>
+./blog-post1.html:47:    <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./blog-post1.html:53:<main id="top"><section class="hero-section compact"><div class="container reveal"><div class="eyebrow"><span class="pulse"></span><span>Research</span></div><h1>Почему статичные AI-профили не работают</h1><p class="hero-text">Фиксированный профиль быстро устаревает, потому что поведение пользователя меняется по задачам и фазам диалога.</p></div></section><section class="section-block"><div class="container article reveal"><h2>Главный принцип</h2><p>Лучший подход — гибрид: явные инструкции текущего хода, session-state, устойчивый профиль и только потом общие шаблоны ответа.</p><h2>Правило</h2><p>Текущая инструкция всегда сильнее истории. Если пользователь просит коротко — ответ должен стать коротким, даже если обычно он любит детали.</p><h2>Production logic</h2><p>stable_update выполняется только при достаточной уверенности: confidence, evidence_count и отсутствие недавних противоречий.</p><div class="hero-actions"><a class="btn-primary-custom" href="blog.html">Все статьи</a></div></div></section></main>
+./blog-post1.html:58:    <div class="footer-links"><a href="portfolio.html">Кейсы</a><a href="services.html">Услуги</a><a href="blog.html">Research</a><a href="contact.html">Контакт</a></div>
+./blog-post1.html:67:    <a data-link-key="email" href="#">✉ Email</a>
+./blog-post1.html:68:    <a data-link-key="telegram" href="#" target="_blank" rel="noopener">↗ Telegram</a>
+./blog-post1.html:69:    <a data-link-key="whatsapp" href="#" target="_blank" rel="noopener">☏ WhatsApp</a>
+./blog-post1.html:74:  <a class="mobile-tiktok-link mobile-tiktok-primary" href="portfolio.html">Кейсы</a>
+./blog-post1.html:75:  <a class="mobile-tiktok-link mobile-tiktok-secondary" href="services.html">Услуги</a>
+./resume.html:11:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./resume.html:17:    <a class="brand" href="index.html">
+./resume.html:22:      <a href="index.html" data-i18n="nav_home">Главная</a>
+./resume.html:23:      <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./resume.html:24:      <a href="services.html" data-i18n="nav_services">Услуги</a>
+./resume.html:25:      <a href="blog.html" data-i18n="nav_research">Research</a>
+./resume.html:26:      <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./resume.html:41:    <a href="index.html" data-i18n="nav_home">Главная</a>
+./resume.html:42:    <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./resume.html:43:    <a href="services.html" data-i18n="nav_services">Услуги</a>
+./resume.html:44:    <a href="blog.html" data-i18n="nav_research">Research</a>
+./resume.html:45:    <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./resume.html:57:        <a class="cta" href="portfolio.html">Смотреть кейсы</a>
+./resume.html:58:        <a class="cta secondary" href="contact.html">Связаться</a>
+./resume.html:87:      <p>Email: <a href="mailto:shokalo160890@gmail.com">shokalo160890@gmail.com</a></p>
+./resume.html:94:    <div class="footer-links"><a href="portfolio.html">Кейсы</a><a href="services.html">Услуги</a><a href="blog.html">Research</a><a href="contact.html">Контакт</a></div>
+./index.html:11:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./index.html:17:    <a class="brand" href="index.html">
+./index.html:22:      <a href="index.html" data-i18n="nav_home">Главная</a>
+./index.html:23:      <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./index.html:24:      <a href="services.html" data-i18n="nav_services">Услуги</a>
+./index.html:25:      <a href="blog.html" data-i18n="nav_research">Research</a>
+./index.html:26:      <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./index.html:41:    <a href="index.html" data-i18n="nav_home">Главная</a>
+./index.html:42:    <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./index.html:43:    <a href="services.html" data-i18n="nav_services">Услуги</a>
+./index.html:44:    <a href="blog.html" data-i18n="nav_research">Research</a>
+./index.html:45:    <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./index.html:59:          <a class="cta btn-primary-custom" href="portfolio.html">Смотреть 3 флагманских кейса</a>
+./index.html:60:          <a class="cta secondary btn-secondary-custom" href="resume.html">Резюме</a>
+./index.html:61:          <a class="cta secondary btn-secondary-custom" href="contact.html">Обсудить задачу</a>
+./index.html:94:          <a class="inline-link" href="portfolio-item1.html">Открыть кейс →</a>
+./index.html:100:          <a class="inline-link" href="portfolio-item2.html">Открыть кейс →</a>
+./index.html:106:          <a class="inline-link" href="portfolio-item3.html">Открыть кейс →</a>
+./index.html:124:    <a href="contact.html" class="cta">Обсудить задачу</a>
+./index.html:130:    <div class="footer-links"><a href="portfolio.html">Кейсы</a><a href="services.html">Услуги</a><a href="blog.html">Research</a><a href="contact.html">Контакт</a></div>
+./services.html:11:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./services.html:17:    <a class="brand" href="index.html">
+./services.html:22:      <a href="index.html" data-i18n="nav_home">Главная</a>
+./services.html:23:      <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./services.html:24:      <a href="services.html" data-i18n="nav_services">Услуги</a>
+./services.html:25:      <a href="blog.html" data-i18n="nav_research">Research</a>
+./services.html:26:      <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./services.html:41:    <a href="index.html" data-i18n="nav_home">Главная</a>
+./services.html:42:    <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./services.html:43:    <a href="services.html" data-i18n="nav_services">Услуги</a>
+./services.html:44:    <a href="blog.html" data-i18n="nav_research">Research</a>
+./services.html:45:    <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./services.html:61:      <article class="price-card info-card reveal"><h3>AI Architecture Sprint</h3><p class="price">€490+</p><p>Анализ задачи, архитектура MVP, техническая карта, GitHub-ready план. 5–7 дней.</p><a class="cta" href="contact.html">Запросить</a></article>
+./services.html:62:      <article class="price-card popular info-card reveal"><span>Best</span><h3>Production Web Feature / Product</h3><p class="price">€1,490+</p><p>Полный цикл: UX → код → деплой → документация + AI-персонализация. 2–4 недели.</p><a class="cta" href="contact.html">Запросить</a></article>
+./services.html:63:      <article class="price-card info-card reveal"><h3>Automation Pipeline / Dev-Cloud</h3><p class="price">€790+</p><p>CLI-воркфлоу, Docker-инфраструктура, видео/контент-автоматизация, self-hosted стек.</p><a class="cta" href="contact.html">Запросить</a></article>
+./services.html:78:    <a class="cta" href="contact.html">Обсудить задачу</a>
+./services.html:84:    <div class="footer-links"><a href="portfolio.html">Кейсы</a><a href="services.html">Услуги</a><a href="blog.html">Research</a><a href="contact.html">Контакт</a></div>
+./blog-post2.html:12:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./blog-post2.html:19:    <a class="brand" href="index.html">
+./blog-post2.html:24:      <a href="index.html" data-i18n="nav_home">Главная</a>
+./blog-post2.html:25:      <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./blog-post2.html:26:      <a href="services.html" data-i18n="nav_services">Услуги</a>
+./blog-post2.html:27:      <a href="blog.html" data-i18n="nav_research">Research</a>
+./blog-post2.html:28:      <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./blog-post2.html:43:    <a href="index.html" data-i18n="nav_home">Главная</a>
+./blog-post2.html:44:    <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./blog-post2.html:45:    <a href="services.html" data-i18n="nav_services">Услуги</a>
+./blog-post2.html:46:    <a href="blog.html" data-i18n="nav_research">Research</a>
+./blog-post2.html:47:    <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./blog-post2.html:53:<main id="top"><section class="hero-section compact"><div class="container reveal"><div class="eyebrow"><span class="pulse"></span><span>Research</span></div><h1>Session-State vs Long-Term Memory</h1><p class="hero-text">Session-state нужен для текущей задачи. Long-term profile нужен только для устойчивых повторяющихся паттернов.</p></div></section><section class="section-block"><div class="container article reveal"><h2>Session-state</h2><p>Хранит временные требования: формат, язык, срочность, текущую цель и корректировки.</p><h2>Long-term profile</h2><p>Хранит подтвержденные предпочтения: прямота, структура, code-first режим, tolerance к уточнениям.</p><h2>Conflict handling</h2><p>При противоречии поле не перезаписывается сразу. Уверенность понижается, новое значение держится временно.</p><div class="hero-actions"><a class="btn-primary-custom" href="blog.html">Все статьи</a></div></div></section></main>
+./blog-post2.html:58:    <div class="footer-links"><a href="portfolio.html">Кейсы</a><a href="services.html">Услуги</a><a href="blog.html">Research</a><a href="contact.html">Контакт</a></div>
+./blog-post2.html:67:    <a data-link-key="email" href="#">✉ Email</a>
+./blog-post2.html:68:    <a data-link-key="telegram" href="#" target="_blank" rel="noopener">↗ Telegram</a>
+./blog-post2.html:69:    <a data-link-key="whatsapp" href="#" target="_blank" rel="noopener">☏ WhatsApp</a>
+./blog-post2.html:74:  <a class="mobile-tiktok-link mobile-tiktok-primary" href="portfolio.html">Кейсы</a>
+./blog-post2.html:75:  <a class="mobile-tiktok-link mobile-tiktok-secondary" href="services.html">Услуги</a>
+./contact.html:12:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./contact.html:19:    <a class="brand" href="index.html">
+./contact.html:24:      <a href="index.html" data-i18n="nav_home">Главная</a>
+./contact.html:25:      <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./contact.html:26:      <a href="services.html" data-i18n="nav_services">Услуги</a>
+./contact.html:27:      <a href="blog.html" data-i18n="nav_research">Research</a>
+./contact.html:28:      <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./contact.html:43:    <a href="index.html" data-i18n="nav_home">Главная</a>
+./contact.html:44:    <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./contact.html:45:    <a href="services.html" data-i18n="nav_services">Услуги</a>
+./contact.html:46:    <a href="blog.html" data-i18n="nav_research">Research</a>
+./contact.html:47:    <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./contact.html:55:<section class="section-block"><div class="container proof-layout"><div class="info-card reveal"><h2>Формат заявки</h2><p>Лучше отправить ZIP сайта, скриншоты референса и 3–5 целей обновления.</p><div class="hero-actions"><a class="btn-primary-custom" data-link-key="email" href="#">Написать email</a><a class="btn-secondary-custom" data-link-key="telegram" href="#">Telegram</a></div></div><form class="contact-form reveal" onsubmit="return sendMailForm(event)"><label>Имя<input type="text" name="name" required></label><label>Email<input type="email" name="email" required></label><label>Задача<textarea name="message" rows="7" required></textarea></label><button class="btn-primary-custom" type="submit">Отправить</button></form></div></section>
+./contact.html:61:    <div class="footer-links"><a href="portfolio.html">Кейсы</a><a href="services.html">Услуги</a><a href="blog.html">Research</a><a href="contact.html">Контакт</a></div>
+./contact.html:70:    <a data-link-key="email" href="#">✉ Email</a>
+./contact.html:71:    <a data-link-key="telegram" href="#" target="_blank" rel="noopener">↗ Telegram</a>
+./contact.html:72:    <a data-link-key="whatsapp" href="#" target="_blank" rel="noopener">☏ WhatsApp</a>
+./contact.html:77:  <a class="mobile-tiktok-link mobile-tiktok-primary" href="portfolio.html">Кейсы</a>
+./contact.html:78:  <a class="mobile-tiktok-link mobile-tiktok-secondary" href="services.html">Услуги</a>
+./portfolio-item3.html:11:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./portfolio-item3.html:17:    <a class="brand" href="index.html">
+./portfolio-item3.html:22:      <a href="index.html" data-i18n="nav_home">Главная</a>
+./portfolio-item3.html:23:      <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./portfolio-item3.html:24:      <a href="services.html" data-i18n="nav_services">Услуги</a>
+./portfolio-item3.html:25:      <a href="blog.html" data-i18n="nav_research">Research</a>
+./portfolio-item3.html:26:      <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./portfolio-item3.html:41:    <a href="index.html" data-i18n="nav_home">Главная</a>
+./portfolio-item3.html:42:    <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./portfolio-item3.html:43:    <a href="services.html" data-i18n="nav_services">Услуги</a>
+./portfolio-item3.html:44:    <a href="blog.html" data-i18n="nav_research">Research</a>
+./portfolio-item3.html:45:    <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./portfolio-item3.html:64:    <div class="footer-links"><a href="portfolio.html">Кейсы</a><a href="services.html">Услуги</a><a href="blog.html">Research</a><a href="contact.html">Контакт</a></div>
+./portfolio-item1.html:11:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./portfolio-item1.html:17:    <a class="brand" href="index.html">
+./portfolio-item1.html:22:      <a href="index.html" data-i18n="nav_home">Главная</a>
+./portfolio-item1.html:23:      <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./portfolio-item1.html:24:      <a href="services.html" data-i18n="nav_services">Услуги</a>
+./portfolio-item1.html:25:      <a href="blog.html" data-i18n="nav_research">Research</a>
+./portfolio-item1.html:26:      <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./portfolio-item1.html:41:    <a href="index.html" data-i18n="nav_home">Главная</a>
+./portfolio-item1.html:42:    <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./portfolio-item1.html:43:    <a href="services.html" data-i18n="nav_services">Услуги</a>
+./portfolio-item1.html:44:    <a href="blog.html" data-i18n="nav_research">Research</a>
+./portfolio-item1.html:45:    <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./portfolio-item1.html:64:    <div class="footer-links"><a href="portfolio.html">Кейсы</a><a href="services.html">Услуги</a><a href="blog.html">Research</a><a href="contact.html">Контакт</a></div>
+./portfolio-item2.html:11:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./portfolio-item2.html:17:    <a class="brand" href="index.html">
+./portfolio-item2.html:22:      <a href="index.html" data-i18n="nav_home">Главная</a>
+./portfolio-item2.html:23:      <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./portfolio-item2.html:24:      <a href="services.html" data-i18n="nav_services">Услуги</a>
+./portfolio-item2.html:25:      <a href="blog.html" data-i18n="nav_research">Research</a>
+./portfolio-item2.html:26:      <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./portfolio-item2.html:41:    <a href="index.html" data-i18n="nav_home">Главная</a>
+./portfolio-item2.html:42:    <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./portfolio-item2.html:43:    <a href="services.html" data-i18n="nav_services">Услуги</a>
+./portfolio-item2.html:44:    <a href="blog.html" data-i18n="nav_research">Research</a>
+./portfolio-item2.html:45:    <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./portfolio-item2.html:64:    <div class="footer-links"><a href="portfolio.html">Кейсы</a><a href="services.html">Услуги</a><a href="blog.html">Research</a><a href="contact.html">Контакт</a></div>
+
+==============================
+10. ASSET REFERENCES
+==============================
+./about.html:9:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./about.html:134:<script src="scripts.js?v=1778634917"></script>
+./404.html:12:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./404.html:78:<script src="scripts.js?v=1778634917"></script>
+./blog-post3.html:12:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./blog-post3.html:78:<script src="scripts.js?v=1778634917"></script>
+./blog.html:12:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./blog.html:81:<script src="scripts.js?v=1778634917"></script>
+./portfolio.html:11:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./portfolio.html:72:<script src="scripts.js?v=1778634917"></script>
+./blog-post1.html:12:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./blog-post1.html:78:<script src="scripts.js?v=1778634917"></script>
+./resume.html:11:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./resume.html:97:<script src="scripts.js?v=1778634917"></script>
+./index.html:11:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./index.html:133:<script src="scripts.js?v=1778634917"></script>
+./services.html:11:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./services.html:87:<script src="scripts.js?v=1778634917"></script>
+./blog-post2.html:12:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./blog-post2.html:78:<script src="scripts.js?v=1778634917"></script>
+./contact.html:12:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./contact.html:81:<script src="scripts.js?v=1778634917"></script>
+./portfolio-item3.html:11:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./portfolio-item3.html:67:<script src="scripts.js?v=1778634917"></script>
+./portfolio-item1.html:11:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./portfolio-item1.html:67:<script src="scripts.js?v=1778634917"></script>
+./portfolio-item2.html:11:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./portfolio-item2.html:67:<script src="scripts.js?v=1778634917"></script>
+
+==============================
+11. POSSIBLE BROKEN LOCAL REFERENCES
+==============================
+./about.html:9:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./about.html:16:    <a class="brand" href="index.html">
+./about.html:21:      <a href="index.html" data-i18n="nav_home">Главная</a>
+./about.html:22:      <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./about.html:23:      <a href="services.html" data-i18n="nav_services">Услуги</a>
+./about.html:24:      <a href="blog.html" data-i18n="nav_research">Research</a>
+./about.html:25:      <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./about.html:40:    <a href="index.html" data-i18n="nav_home">Главная</a>
+./about.html:41:    <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./about.html:42:    <a href="services.html" data-i18n="nav_services">Услуги</a>
+./about.html:43:    <a href="blog.html" data-i18n="nav_research">Research</a>
+./about.html:44:    <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./about.html:123:    <a href="contact.html" class="cta">Обсудить задачу</a>
+./about.html:130:    <div class="footer-links"><a href="portfolio.html">Кейсы</a><a href="services.html">Услуги</a><a href="blog.html">Research</a><a href="contact.html">Контакт</a></div>
+./about.html:134:<script src="scripts.js?v=1778634917"></script>
+./404.html:12:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./404.html:19:    <a class="brand" href="index.html">
+./404.html:24:      <a href="index.html" data-i18n="nav_home">Главная</a>
+./404.html:25:      <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./404.html:26:      <a href="services.html" data-i18n="nav_services">Услуги</a>
+./404.html:27:      <a href="blog.html" data-i18n="nav_research">Research</a>
+./404.html:28:      <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./404.html:43:    <a href="index.html" data-i18n="nav_home">Главная</a>
+./404.html:44:    <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./404.html:45:    <a href="services.html" data-i18n="nav_services">Услуги</a>
+./404.html:46:    <a href="blog.html" data-i18n="nav_research">Research</a>
+./404.html:47:    <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./404.html:53:<main id="top"><section class="hero-section compact"><div class="container reveal"><h1>Страница не найдена</h1><p class="hero-text">Вернуться на главную страницу.</p><a class="btn-primary-custom" href="index.html">На главную</a></div></section></main>
+./404.html:58:    <div class="footer-links"><a href="portfolio.html">Кейсы</a><a href="services.html">Услуги</a><a href="blog.html">Research</a><a href="contact.html">Контакт</a></div>
+./404.html:74:  <a class="mobile-tiktok-link mobile-tiktok-primary" href="portfolio.html">Кейсы</a>
+./404.html:75:  <a class="mobile-tiktok-link mobile-tiktok-secondary" href="services.html">Услуги</a>
+./404.html:78:<script src="scripts.js?v=1778634917"></script>
+./blog-post3.html:12:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./blog-post3.html:19:    <a class="brand" href="index.html">
+./blog-post3.html:24:      <a href="index.html" data-i18n="nav_home">Главная</a>
+./blog-post3.html:25:      <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./blog-post3.html:26:      <a href="services.html" data-i18n="nav_services">Услуги</a>
+./blog-post3.html:27:      <a href="blog.html" data-i18n="nav_research">Research</a>
+./blog-post3.html:28:      <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./blog-post3.html:43:    <a href="index.html" data-i18n="nav_home">Главная</a>
+./blog-post3.html:44:    <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./blog-post3.html:45:    <a href="services.html" data-i18n="nav_services">Услуги</a>
+./blog-post3.html:46:    <a href="blog.html" data-i18n="nav_research">Research</a>
+./blog-post3.html:47:    <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./blog-post3.html:53:<main id="top"><section class="hero-section compact"><div class="container reveal"><div class="eyebrow"><span class="pulse"></span><span>Research</span></div><h1>Privacy-First AI Profiling</h1><p class="hero-text">Персонализация не должна превращаться в сбор лишних данных.</p></div></section><section class="section-block"><div class="container article reveal"><h2>Минимизация</h2><p>Хранить признаки и агрегаты вместо raw transcript. Identity и behavior держать отдельно.</p><h2>Запреты</h2><p>Не выводить и не хранить чувствительные категории: здоровье, политика, религия, этничность, интимная сфера.</p><h2>Контроль</h2><p>Нужны export/delete, retention policy, evidence fields, audit logs and drift monitoring.</p><div class="hero-actions"><a class="btn-primary-custom" href="blog.html">Все статьи</a></div></div></section></main>
+./blog-post3.html:58:    <div class="footer-links"><a href="portfolio.html">Кейсы</a><a href="services.html">Услуги</a><a href="blog.html">Research</a><a href="contact.html">Контакт</a></div>
+./blog-post3.html:74:  <a class="mobile-tiktok-link mobile-tiktok-primary" href="portfolio.html">Кейсы</a>
+./blog-post3.html:75:  <a class="mobile-tiktok-link mobile-tiktok-secondary" href="services.html">Услуги</a>
+./blog-post3.html:78:<script src="scripts.js?v=1778634917"></script>
+./blog.html:12:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./blog.html:19:    <a class="brand" href="index.html">
+./blog.html:24:      <a href="index.html" data-i18n="nav_home">Главная</a>
+./blog.html:25:      <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./blog.html:26:      <a href="services.html" data-i18n="nav_services">Услуги</a>
+./blog.html:27:      <a href="blog.html" data-i18n="nav_research">Research</a>
+./blog.html:28:      <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./blog.html:43:    <a href="index.html" data-i18n="nav_home">Главная</a>
+./blog.html:44:    <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./blog.html:45:    <a href="services.html" data-i18n="nav_services">Услуги</a>
+./blog.html:46:    <a href="blog.html" data-i18n="nav_research">Research</a>
+./blog.html:47:    <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./blog.html:55:<section class="section-block"><div class="container cards-grid cards-3"><article class="info-card reveal"><div class="date">2026</div><h3>Почему статичные AI-профили не работают</h3><p>Почему фиксированный портрет хуже гибридной модели session-state + long-term profile.</p><a class="inline-link" href="blog-post1.html">Читать →</a></article><article class="info-card reveal"><div class="date">2026</div><h3>Session-State vs Long-Term Memory</h3><p>Как разделять временные сигналы и устойчивые предпочтения пользователя.</p><a class="inline-link" href="blog-post2.html">Читать →</a></article><article class="info-card reveal"><div class="date">2026</div><h3>Privacy-First AI Profiling</h3><p>Data minimisation, pseudonymisation, retention and auditability.</p><a class="inline-link" href="blog-post3.html">Читать →</a></article></div></section>
+./blog.html:61:    <div class="footer-links"><a href="portfolio.html">Кейсы</a><a href="services.html">Услуги</a><a href="blog.html">Research</a><a href="contact.html">Контакт</a></div>
+./blog.html:77:  <a class="mobile-tiktok-link mobile-tiktok-primary" href="portfolio.html">Кейсы</a>
+./blog.html:78:  <a class="mobile-tiktok-link mobile-tiktok-secondary" href="services.html">Услуги</a>
+./blog.html:81:<script src="scripts.js?v=1778634917"></script>
+./portfolio.html:11:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./portfolio.html:17:    <a class="brand" href="index.html">
+./portfolio.html:22:      <a href="index.html" data-i18n="nav_home">Главная</a>
+./portfolio.html:23:      <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./portfolio.html:24:      <a href="services.html" data-i18n="nav_services">Услуги</a>
+./portfolio.html:25:      <a href="blog.html" data-i18n="nav_research">Research</a>
+./portfolio.html:26:      <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./portfolio.html:41:    <a href="index.html" data-i18n="nav_home">Главная</a>
+./portfolio.html:42:    <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./portfolio.html:43:    <a href="services.html" data-i18n="nav_services">Услуги</a>
+./portfolio.html:44:    <a href="blog.html" data-i18n="nav_research">Research</a>
+./portfolio.html:45:    <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./portfolio.html:60:      <article class="case-card info-card reveal"><div class="badge">AI Video</div><h3>Miniclip AI Pipeline</h3><p>Production CLI-пайплайн: Whisper, Ollama, клипы, SEO и контент под разные платформы.</p><a href="portfolio-item1.html">Открыть кейс →</a></article>
+./portfolio.html:61:      <article class="case-card info-card reveal"><div class="badge">LLM Memory</div><h3>Adaptive User Profile</h3><p>Архитектура персонализации с confidence, evidence_count и privacy-first контролем.</p><a href="portfolio-item2.html">Открыть кейс →</a></article>
+./portfolio.html:62:      <article class="case-card info-card reveal"><div class="badge">Infrastructure</div><h3>Local Dev-Cloud</h3><p>Docker-based dev-cloud с Traefik, Portainer, n8n, Redis, Postgres и AI-сервисами.</p><a href="portfolio-item3.html">Открыть кейс →</a></article>
+./portfolio.html:69:    <div class="footer-links"><a href="portfolio.html">Кейсы</a><a href="services.html">Услуги</a><a href="blog.html">Research</a><a href="contact.html">Контакт</a></div>
+./portfolio.html:72:<script src="scripts.js?v=1778634917"></script>
+./blog-post1.html:12:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./blog-post1.html:19:    <a class="brand" href="index.html">
+./blog-post1.html:24:      <a href="index.html" data-i18n="nav_home">Главная</a>
+./blog-post1.html:25:      <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./blog-post1.html:26:      <a href="services.html" data-i18n="nav_services">Услуги</a>
+./blog-post1.html:27:      <a href="blog.html" data-i18n="nav_research">Research</a>
+./blog-post1.html:28:      <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./blog-post1.html:43:    <a href="index.html" data-i18n="nav_home">Главная</a>
+./blog-post1.html:44:    <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./blog-post1.html:45:    <a href="services.html" data-i18n="nav_services">Услуги</a>
+./blog-post1.html:46:    <a href="blog.html" data-i18n="nav_research">Research</a>
+./blog-post1.html:47:    <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./blog-post1.html:53:<main id="top"><section class="hero-section compact"><div class="container reveal"><div class="eyebrow"><span class="pulse"></span><span>Research</span></div><h1>Почему статичные AI-профили не работают</h1><p class="hero-text">Фиксированный профиль быстро устаревает, потому что поведение пользователя меняется по задачам и фазам диалога.</p></div></section><section class="section-block"><div class="container article reveal"><h2>Главный принцип</h2><p>Лучший подход — гибрид: явные инструкции текущего хода, session-state, устойчивый профиль и только потом общие шаблоны ответа.</p><h2>Правило</h2><p>Текущая инструкция всегда сильнее истории. Если пользователь просит коротко — ответ должен стать коротким, даже если обычно он любит детали.</p><h2>Production logic</h2><p>stable_update выполняется только при достаточной уверенности: confidence, evidence_count и отсутствие недавних противоречий.</p><div class="hero-actions"><a class="btn-primary-custom" href="blog.html">Все статьи</a></div></div></section></main>
+./blog-post1.html:58:    <div class="footer-links"><a href="portfolio.html">Кейсы</a><a href="services.html">Услуги</a><a href="blog.html">Research</a><a href="contact.html">Контакт</a></div>
+./blog-post1.html:74:  <a class="mobile-tiktok-link mobile-tiktok-primary" href="portfolio.html">Кейсы</a>
+./blog-post1.html:75:  <a class="mobile-tiktok-link mobile-tiktok-secondary" href="services.html">Услуги</a>
+./blog-post1.html:78:<script src="scripts.js?v=1778634917"></script>
+./resume.html:11:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./resume.html:17:    <a class="brand" href="index.html">
+./resume.html:22:      <a href="index.html" data-i18n="nav_home">Главная</a>
+./resume.html:23:      <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./resume.html:24:      <a href="services.html" data-i18n="nav_services">Услуги</a>
+./resume.html:25:      <a href="blog.html" data-i18n="nav_research">Research</a>
+./resume.html:26:      <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./resume.html:41:    <a href="index.html" data-i18n="nav_home">Главная</a>
+./resume.html:42:    <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./resume.html:43:    <a href="services.html" data-i18n="nav_services">Услуги</a>
+./resume.html:44:    <a href="blog.html" data-i18n="nav_research">Research</a>
+./resume.html:45:    <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./resume.html:57:        <a class="cta" href="portfolio.html">Смотреть кейсы</a>
+./resume.html:58:        <a class="cta secondary" href="contact.html">Связаться</a>
+./resume.html:94:    <div class="footer-links"><a href="portfolio.html">Кейсы</a><a href="services.html">Услуги</a><a href="blog.html">Research</a><a href="contact.html">Контакт</a></div>
+./resume.html:97:<script src="scripts.js?v=1778634917"></script>
+./index.html:11:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./index.html:17:    <a class="brand" href="index.html">
+./index.html:22:      <a href="index.html" data-i18n="nav_home">Главная</a>
+./index.html:23:      <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./index.html:24:      <a href="services.html" data-i18n="nav_services">Услуги</a>
+./index.html:25:      <a href="blog.html" data-i18n="nav_research">Research</a>
+./index.html:26:      <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./index.html:41:    <a href="index.html" data-i18n="nav_home">Главная</a>
+./index.html:42:    <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./index.html:43:    <a href="services.html" data-i18n="nav_services">Услуги</a>
+./index.html:44:    <a href="blog.html" data-i18n="nav_research">Research</a>
+./index.html:45:    <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./index.html:59:          <a class="cta btn-primary-custom" href="portfolio.html">Смотреть 3 флагманских кейса</a>
+./index.html:60:          <a class="cta secondary btn-secondary-custom" href="resume.html">Резюме</a>
+./index.html:61:          <a class="cta secondary btn-secondary-custom" href="contact.html">Обсудить задачу</a>
+./index.html:94:          <a class="inline-link" href="portfolio-item1.html">Открыть кейс →</a>
+./index.html:100:          <a class="inline-link" href="portfolio-item2.html">Открыть кейс →</a>
+./index.html:106:          <a class="inline-link" href="portfolio-item3.html">Открыть кейс →</a>
+./index.html:124:    <a href="contact.html" class="cta">Обсудить задачу</a>
+./index.html:130:    <div class="footer-links"><a href="portfolio.html">Кейсы</a><a href="services.html">Услуги</a><a href="blog.html">Research</a><a href="contact.html">Контакт</a></div>
+./index.html:133:<script src="scripts.js?v=1778634917"></script>
+./services.html:11:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./services.html:17:    <a class="brand" href="index.html">
+./services.html:22:      <a href="index.html" data-i18n="nav_home">Главная</a>
+./services.html:23:      <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./services.html:24:      <a href="services.html" data-i18n="nav_services">Услуги</a>
+./services.html:25:      <a href="blog.html" data-i18n="nav_research">Research</a>
+./services.html:26:      <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./services.html:41:    <a href="index.html" data-i18n="nav_home">Главная</a>
+./services.html:42:    <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./services.html:43:    <a href="services.html" data-i18n="nav_services">Услуги</a>
+./services.html:44:    <a href="blog.html" data-i18n="nav_research">Research</a>
+./services.html:45:    <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./services.html:61:      <article class="price-card info-card reveal"><h3>AI Architecture Sprint</h3><p class="price">€490+</p><p>Анализ задачи, архитектура MVP, техническая карта, GitHub-ready план. 5–7 дней.</p><a class="cta" href="contact.html">Запросить</a></article>
+./services.html:62:      <article class="price-card popular info-card reveal"><span>Best</span><h3>Production Web Feature / Product</h3><p class="price">€1,490+</p><p>Полный цикл: UX → код → деплой → документация + AI-персонализация. 2–4 недели.</p><a class="cta" href="contact.html">Запросить</a></article>
+./services.html:63:      <article class="price-card info-card reveal"><h3>Automation Pipeline / Dev-Cloud</h3><p class="price">€790+</p><p>CLI-воркфлоу, Docker-инфраструктура, видео/контент-автоматизация, self-hosted стек.</p><a class="cta" href="contact.html">Запросить</a></article>
+./services.html:78:    <a class="cta" href="contact.html">Обсудить задачу</a>
+./services.html:84:    <div class="footer-links"><a href="portfolio.html">Кейсы</a><a href="services.html">Услуги</a><a href="blog.html">Research</a><a href="contact.html">Контакт</a></div>
+./services.html:87:<script src="scripts.js?v=1778634917"></script>
+./blog-post2.html:12:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./blog-post2.html:19:    <a class="brand" href="index.html">
+./blog-post2.html:24:      <a href="index.html" data-i18n="nav_home">Главная</a>
+./blog-post2.html:25:      <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./blog-post2.html:26:      <a href="services.html" data-i18n="nav_services">Услуги</a>
+./blog-post2.html:27:      <a href="blog.html" data-i18n="nav_research">Research</a>
+./blog-post2.html:28:      <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./blog-post2.html:43:    <a href="index.html" data-i18n="nav_home">Главная</a>
+./blog-post2.html:44:    <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./blog-post2.html:45:    <a href="services.html" data-i18n="nav_services">Услуги</a>
+./blog-post2.html:46:    <a href="blog.html" data-i18n="nav_research">Research</a>
+./blog-post2.html:47:    <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./blog-post2.html:53:<main id="top"><section class="hero-section compact"><div class="container reveal"><div class="eyebrow"><span class="pulse"></span><span>Research</span></div><h1>Session-State vs Long-Term Memory</h1><p class="hero-text">Session-state нужен для текущей задачи. Long-term profile нужен только для устойчивых повторяющихся паттернов.</p></div></section><section class="section-block"><div class="container article reveal"><h2>Session-state</h2><p>Хранит временные требования: формат, язык, срочность, текущую цель и корректировки.</p><h2>Long-term profile</h2><p>Хранит подтвержденные предпочтения: прямота, структура, code-first режим, tolerance к уточнениям.</p><h2>Conflict handling</h2><p>При противоречии поле не перезаписывается сразу. Уверенность понижается, новое значение держится временно.</p><div class="hero-actions"><a class="btn-primary-custom" href="blog.html">Все статьи</a></div></div></section></main>
+./blog-post2.html:58:    <div class="footer-links"><a href="portfolio.html">Кейсы</a><a href="services.html">Услуги</a><a href="blog.html">Research</a><a href="contact.html">Контакт</a></div>
+./blog-post2.html:74:  <a class="mobile-tiktok-link mobile-tiktok-primary" href="portfolio.html">Кейсы</a>
+./blog-post2.html:75:  <a class="mobile-tiktok-link mobile-tiktok-secondary" href="services.html">Услуги</a>
+./blog-post2.html:78:<script src="scripts.js?v=1778634917"></script>
+./contact.html:12:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./contact.html:19:    <a class="brand" href="index.html">
+./contact.html:24:      <a href="index.html" data-i18n="nav_home">Главная</a>
+./contact.html:25:      <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./contact.html:26:      <a href="services.html" data-i18n="nav_services">Услуги</a>
+./contact.html:27:      <a href="blog.html" data-i18n="nav_research">Research</a>
+./contact.html:28:      <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./contact.html:43:    <a href="index.html" data-i18n="nav_home">Главная</a>
+./contact.html:44:    <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./contact.html:45:    <a href="services.html" data-i18n="nav_services">Услуги</a>
+./contact.html:46:    <a href="blog.html" data-i18n="nav_research">Research</a>
+./contact.html:47:    <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./contact.html:61:    <div class="footer-links"><a href="portfolio.html">Кейсы</a><a href="services.html">Услуги</a><a href="blog.html">Research</a><a href="contact.html">Контакт</a></div>
+./contact.html:77:  <a class="mobile-tiktok-link mobile-tiktok-primary" href="portfolio.html">Кейсы</a>
+./contact.html:78:  <a class="mobile-tiktok-link mobile-tiktok-secondary" href="services.html">Услуги</a>
+./contact.html:81:<script src="scripts.js?v=1778634917"></script>
+./portfolio-item3.html:11:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./portfolio-item3.html:17:    <a class="brand" href="index.html">
+./portfolio-item3.html:22:      <a href="index.html" data-i18n="nav_home">Главная</a>
+./portfolio-item3.html:23:      <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./portfolio-item3.html:24:      <a href="services.html" data-i18n="nav_services">Услуги</a>
+./portfolio-item3.html:25:      <a href="blog.html" data-i18n="nav_research">Research</a>
+./portfolio-item3.html:26:      <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./portfolio-item3.html:41:    <a href="index.html" data-i18n="nav_home">Главная</a>
+./portfolio-item3.html:42:    <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./portfolio-item3.html:43:    <a href="services.html" data-i18n="nav_services">Услуги</a>
+./portfolio-item3.html:44:    <a href="blog.html" data-i18n="nav_research">Research</a>
+./portfolio-item3.html:45:    <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./portfolio-item3.html:64:    <div class="footer-links"><a href="portfolio.html">Кейсы</a><a href="services.html">Услуги</a><a href="blog.html">Research</a><a href="contact.html">Контакт</a></div>
+./portfolio-item3.html:67:<script src="scripts.js?v=1778634917"></script>
+./portfolio-item1.html:11:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./portfolio-item1.html:17:    <a class="brand" href="index.html">
+./portfolio-item1.html:22:      <a href="index.html" data-i18n="nav_home">Главная</a>
+./portfolio-item1.html:23:      <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./portfolio-item1.html:24:      <a href="services.html" data-i18n="nav_services">Услуги</a>
+./portfolio-item1.html:25:      <a href="blog.html" data-i18n="nav_research">Research</a>
+./portfolio-item1.html:26:      <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./portfolio-item1.html:41:    <a href="index.html" data-i18n="nav_home">Главная</a>
+./portfolio-item1.html:42:    <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./portfolio-item1.html:43:    <a href="services.html" data-i18n="nav_services">Услуги</a>
+./portfolio-item1.html:44:    <a href="blog.html" data-i18n="nav_research">Research</a>
+./portfolio-item1.html:45:    <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./portfolio-item1.html:64:    <div class="footer-links"><a href="portfolio.html">Кейсы</a><a href="services.html">Услуги</a><a href="blog.html">Research</a><a href="contact.html">Контакт</a></div>
+./portfolio-item1.html:67:<script src="scripts.js?v=1778634917"></script>
+./portfolio-item2.html:11:  <link rel="stylesheet" href="styles.css?v=1778634917" />
+./portfolio-item2.html:17:    <a class="brand" href="index.html">
+./portfolio-item2.html:22:      <a href="index.html" data-i18n="nav_home">Главная</a>
+./portfolio-item2.html:23:      <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./portfolio-item2.html:24:      <a href="services.html" data-i18n="nav_services">Услуги</a>
+./portfolio-item2.html:25:      <a href="blog.html" data-i18n="nav_research">Research</a>
+./portfolio-item2.html:26:      <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./portfolio-item2.html:41:    <a href="index.html" data-i18n="nav_home">Главная</a>
+./portfolio-item2.html:42:    <a href="portfolio.html" data-i18n="nav_cases">Кейсы</a>
+./portfolio-item2.html:43:    <a href="services.html" data-i18n="nav_services">Услуги</a>
+./portfolio-item2.html:44:    <a href="blog.html" data-i18n="nav_research">Research</a>
+./portfolio-item2.html:45:    <a href="about.html" data-i18n="nav_architecture">Архитектура</a>
+./portfolio-item2.html:64:    <div class="footer-links"><a href="portfolio.html">Кейсы</a><a href="services.html">Услуги</a><a href="blog.html">Research</a><a href="contact.html">Контакт</a></div>
+./portfolio-item2.html:67:<script src="scripts.js?v=1778634917"></script>
+
+==============================
+12. TODO / FIXME / PLACEHOLDER
+==============================
+./LINKS_TO_FILL.txt:6:  email: "you@example.com",
+./LINKS_TO_FILL.txt:9:  card: "https://your-payment-link.example"
+./scripts.js:1:const SITE_CONFIG={telegram:"https://t.me/your_channel",whatsapp:"https://wa.me/491234567890",email:"you@example.com",paypal:"https://paypal.me/yourname",bitcoin:"bitcoin:YOUR_BTC_ADDRESS",card:"https://your-payment-link.example"};
+./PROJECT_FULL_ANALYSIS_20260513_032447.txt:683:12. TODO / FIXME / PLACEHOLDER
+
+==============================
+13. OLD / SUSPICIOUS TEXT
+==============================
+./scripts.js:37:  document.querySelectorAll(".cta,.btn-primary-custom,.btn-secondary-custom").forEach((btn) => {
+
+==============================
+14. HTML BASIC VALIDATION SIGNALS
+==============================
+--- Missing lang ---
+
+--- Missing viewport ---
+
+--- Missing h1 ---
+
+--- Multiple h1 ---
+
+==============================
+15. CSS CHECK
+==============================
+
+==============================
+16. JS CHECK
+==============================
+./scripts.js:3:function normalizeLang(l){if(l==="auto")return(navigator.language||"ru").slice(0,2);return I18N[l]?l:"ru"}function applyLang(lang){const resolved=normalizeLang(lang);document.documentElement.lang=resolved;document.querySelectorAll("[data-i18n]").forEach(el=>{const k=el.dataset.i18n;if(I18N[resolved]&&I18N[resolved][k])el.textContent=I18N[resolved][k]});document.querySelectorAll("[data-i18n-html]").forEach(el=>{const k=el.dataset.i18nHtml;if(I18N[resolved]&&I18N[resolved][k])el.innerHTML=I18N[resolved][k]});localStorage.setItem("b26_lang",lang);document.querySelectorAll(".lang-btn").forEach(b=>b.classList.toggle("active",b.dataset.lang===lang))}function applyTheme(mode){const prefers=window.matchMedia&&window.matchMedia("(prefers-color-scheme: light)").matches;const light=mode==="light"||(mode==="auto"&&prefers);document.body.classList.toggle("light-theme",light);localStorage.setItem("b26_theme",mode);document.querySelectorAll(".theme-toggle-label").forEach(e=>e.textContent=mode[0].toUpperCase()+mode.slice(1))}function toggleTheme(){const current=localStorage.getItem("b26_theme")||"auto";applyTheme(current==="auto"?"dark":current==="dark"?"light":"auto")}function toggleModal(id){closeAllModals(false);document.getElementById("overlay")?.classList.add("active");document.getElementById(id)?.classList.add("active");document.body.classList.add("modal-open")}function closeAllModals(remove=true){document.querySelectorAll(".modal-window").forEach(m=>m.classList.remove("active"));if(remove){document.getElementById("overlay")?.classList.remove("active");document.body.classList.remove("modal-open")}}function wireLinks(){document.querySelectorAll("[data-link-key]").forEach(a=>{const k=a.dataset.linkKey;let v=SITE_CONFIG[k]||"#";if(k==="email")v=`mailto:${SITE_CONFIG.email}?subject=B26%20AI%20Systems%20Request`;a.href=v})}function sendMailForm(e){e.preventDefault();const fd=new FormData(e.target);const subject="B26 AI Systems Request";const body=`Name: ${fd.get("name")}\nEmail: ${fd.get("email")}\n\n${fd.get("message")}`;location.href=`mailto:${SITE_CONFIG.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;return false}document.addEventListener("DOMContentLoaded",()=>{wireLinks();applyLang(localStorage.getItem("b26_lang")||"ru");applyTheme(localStorage.getItem("b26_theme")||"auto");document.querySelectorAll(".lang-btn").forEach(b=>b.addEventListener("click",()=>applyLang(b.dataset.lang)));document.querySelectorAll(".theme-toggle").forEach(b=>b.addEventListener("click",toggleTheme));document.getElementById("mobileMenuBtn")?.addEventListener("click",()=>document.getElementById("mobileNav")?.classList.toggle("active"));document.querySelectorAll(".interactive-btn").forEach(btn=>btn.addEventListener("click",e=>{const r=btn.querySelector(".btn-ripple");if(r){const rect=btn.getBoundingClientRect();r.style.left=e.clientX-rect.left+"px";r.style.top=e.clientY-rect.top+"px";btn.classList.remove("ripple-run");void btn.offsetWidth;btn.classList.add("ripple-run")}}));const io=new IntersectionObserver((entries)=>entries.forEach(x=>{if(x.isIntersecting){x.target.classList.add("visible");io.unobserve(x.target)}}),{threshold:.12});document.querySelectorAll(".reveal").forEach(e=>io.observe(e));document.addEventListener("keydown",e=>{if(e.key==="Escape")closeAllModals()})});
+
+==============================
+17. ROBOTS / SITEMAP
+==============================
+-rw-rw-r-- 1 n1k0n n1k0n   90 Mai 13 03:15 robots.txt
+-rw-rw-r-- 1 n1k0n n1k0n 1469 Mai 13 03:15 sitemap.xml
+
+User-agent: *
+Allow: /
+
+Sitemap: https://shokalo160890-rgb.github.io/b26-site/sitemap.xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://shokalo160890-rgb.github.io/b26-site/</loc><lastmod>2026-05-13</lastmod><priority>1.0</priority></url>
+  <url><loc>https://shokalo160890-rgb.github.io/b26-site/portfolio.html</loc><lastmod>2026-05-13</lastmod><priority>0.9</priority></url>
+  <url><loc>https://shokalo160890-rgb.github.io/b26-site/portfolio-item1.html</loc><lastmod>2026-05-13</lastmod><priority>0.8</priority></url>
+  <url><loc>https://shokalo160890-rgb.github.io/b26-site/portfolio-item2.html</loc><lastmod>2026-05-13</lastmod><priority>0.8</priority></url>
+  <url><loc>https://shokalo160890-rgb.github.io/b26-site/portfolio-item3.html</loc><lastmod>2026-05-13</lastmod><priority>0.8</priority></url>
+  <url><loc>https://shokalo160890-rgb.github.io/b26-site/services.html</loc><lastmod>2026-05-13</lastmod><priority>0.8</priority></url>
+  <url><loc>https://shokalo160890-rgb.github.io/b26-site/resume.html</loc><lastmod>2026-05-13</lastmod><priority>0.9</priority></url>
+  <url><loc>https://shokalo160890-rgb.github.io/b26-site/about.html</loc><lastmod>2026-05-13</lastmod><priority>0.7</priority></url>
+  <url><loc>https://shokalo160890-rgb.github.io/b26-site/blog.html</loc><lastmod>2026-05-13</lastmod><priority>0.7</priority></url>
+  <url><loc>https://shokalo160890-rgb.github.io/b26-site/contact.html</loc><lastmod>2026-05-13</lastmod><priority>0.6</priority></url>
+</urlset>
+
+==============================
+18. README
+==============================
+# Oleksandr Shokalo
+
+**Web Product Developer + AI Automation**
+
+Собираю быстрые, понятные и production-ready веб-решения, которые можно не только показать, но и спокойно поддерживать дальше.
+
+## Чем занимаюсь
+
+- Product-minded web development: frontend + backend + delivery
+- AI-персонализация и behavioral profiling
+- Автоматизация пайплайнов: CLI + Docker
+- Dev-инфраструктура и self-hosted стеки
+- GitHub-ready сайты, README, deploy и документация
+
+## Ключевой стек
+
+- **Frontend:** HTML, CSS, JavaScript, Tailwind, Next.js
+- **Backend / AI:** Python, FastAPI, Ollama, Whisper
+- **Infra:** Docker, Traefik, Portainer, GitHub Actions
+- **Другое:** privacy-first architecture, CWV, SEO, maintainability
+
+## Посмотреть в первую очередь
+
+- **[Miniclip AI Pipeline](https://shokalo160890-rgb.github.io/b26-site/portfolio-item1.html)** — production видео-автоматизация
+- **[Adaptive User Profile](https://shokalo160890-rgb.github.io/b26-site/portfolio-item2.html)** — гибридная система персонализации
+- **[Local Dev-Cloud](https://shokalo160890-rgb.github.io/b26-site/portfolio-item3.html)** — self-hosted инфраструктура
+- **[Сайт-портфолио](https://shokalo160890-rgb.github.io/b26-site/)** — этот проект
+
+## Сейчас в фокусе
+
+- Улучшение личного бренда и привлечение проектов / ролей
+- Новые open-source инструменты на базе Adaptive Profile
+- Web Product Developer + AI Automation positioning
+
+## Контакт
+
+- Email: shokalo160890@gmail.com
+- Telegram: ссылка в шапке сайта
+
+**Web Product Developer + AI Automation** — быстро от задачи до релиза без лишней сложности.
+
+==============================
+19. FINAL SUMMARY
+==============================
+HTML files: 14
+CSS files:  1
+JS files:   2
+Images:     0
+Total files:25
+
