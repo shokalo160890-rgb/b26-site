@@ -1,6 +1,6 @@
 # Oleksandr Shokalo
 
-**Web Product Developer**
+**Web Product Developer + AI Automation**
 
 Собираю быстрые, понятные и production-ready веб-решения, которые можно не только показать, но и спокойно поддерживать дальше.
 
@@ -30,11 +30,11 @@
 
 - Улучшение личного бренда и привлечение проектов / ролей
 - Новые open-source инструменты на базе Adaptive Profile
-- Web Product Developer positioning
+- Web Product Developer + AI Automation positioning
 
 ## Контакт
 
 - Email: shokalo160890@gmail.com
 - Telegram: ссылка в шапке сайта
 
-**Web Product Developer** — быстро от задачи до релиза без лишней сложности.
+**Web Product Developer + AI Automation** — быстро от задачи до релиза без лишней сложности.
