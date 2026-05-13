@@ -26,3 +26,29 @@ document.addEventListener("DOMContentLoaded", () => {
     el.classList.add("visible");
   });
 });
+
+// Safe analytics wrapper
+window.safeGtag = function(){
+  if (typeof window.gtag === "function") {
+    window.gtag.apply(null, arguments);
+  }
+};
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".cta,.btn-primary-custom,.btn-secondary-custom").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      window.safeGtag("event", "cta_click", {
+        event_category: "engagement",
+        event_label: (btn.textContent || "").trim() || "unknown_cta",
+        value: 1
+      });
+    });
+  });
+  document.querySelectorAll('a[href*="portfolio-item"]').forEach((link) => {
+    link.addEventListener("click", () => {
+      window.safeGtag("event", "project_view", {
+        event_category: "portfolio",
+        event_label: (link.textContent || "").trim() || link.href
+      });
+    });
+  });
+});
