@@ -169,3 +169,107 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("mobileNav")?.classList.toggle("active");
   });
 });
+
+
+/* FINAL duplicate floating cleanup + clear theme label */
+document.addEventListener("DOMContentLoaded", function () {
+  const widgets = Array.from(document.querySelectorAll(".floating-contact-widget"));
+
+  widgets.forEach(function (widget, index) {
+    if (index < widgets.length - 1) {
+      widget.remove();
+    }
+  });
+
+  const finalWidgets = Array.from(document.querySelectorAll(".floating-contact-widget"));
+
+  finalWidgets.forEach(function (widget) {
+    const btn = widget.querySelector(".floating-contact-btn");
+    const menu = widget.querySelector(".floating-contact-menu");
+
+    if (!btn || !menu) return;
+
+    btn.onclick = function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      widget.classList.toggle("active");
+      menu.setAttribute("aria-hidden", widget.classList.contains("active") ? "false" : "true");
+    };
+  });
+
+  document.addEventListener("click", function (e) {
+    document.querySelectorAll(".floating-contact-widget").forEach(function (widget) {
+      if (!widget.contains(e.target)) {
+        widget.classList.remove("active");
+      }
+    });
+  });
+
+  function updateThemeButton() {
+    document.querySelectorAll(".clean-theme-toggle").forEach(function (btn) {
+      btn.textContent = document.body.classList.contains("light-theme")
+        ? "Theme: Light"
+        : "Theme: Dark";
+    });
+  }
+
+  updateThemeButton();
+
+  document.querySelectorAll(".clean-theme-toggle").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      setTimeout(updateThemeButton, 0);
+    });
+  });
+});
+
+
+/* ONE FINAL FLOATING CONTACT BUTTON */
+document.addEventListener("DOMContentLoaded", function () {
+  const oldSelectors = [
+    ".floating-contact-widget",
+    ".contact-floating",
+    ".floating-contact",
+    ".contact-fab",
+    ".fab-contact",
+    ".quick-contact",
+    ".contact-widget",
+    ".social-floating",
+    ".floating-actions"
+  ];
+
+  oldSelectors.forEach(function (selector) {
+    document.querySelectorAll(selector).forEach(function (el) {
+      el.remove();
+    });
+  });
+
+  const final = document.createElement("div");
+  final.className = "final-floating-contact";
+  final.innerHTML = `
+    <button class="final-floating-contact-btn" type="button" aria-label="Открыть контакты">✉</button>
+    <div class="final-floating-contact-menu" aria-hidden="true">
+      <a href="mailto:shokalo160890@gmail.com?subject=${encodeURIComponent("Заявка на мини-сайт")}">Email</a>
+      <a href="https://t.me/shokalo160890" target="_blank" rel="noopener">Telegram</a>
+      <a href="https://wa.me/?text=${encodeURIComponent("Здравствуйте, хочу заказать мини-сайт")}" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  `;
+
+  document.body.appendChild(final);
+
+  const btn = final.querySelector(".final-floating-contact-btn");
+  const menu = final.querySelector(".final-floating-contact-menu");
+
+  btn.addEventListener("click", function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+    final.classList.toggle("active");
+    menu.setAttribute("aria-hidden", final.classList.contains("active") ? "false" : "true");
+  });
+
+  document.addEventListener("click", function (e) {
+    if (!final.contains(e.target)) {
+      final.classList.remove("active");
+      menu.setAttribute("aria-hidden", "true");
+    }
+  });
+});
