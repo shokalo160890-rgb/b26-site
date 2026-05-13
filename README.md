@@ -1,11 +1,34 @@
-# B26 AI Systems Hybrid
+# Oleksandr Shokalo — Web Product Developer
 
-Hybrid static website for GitHub Pages.
+**Собираю быстрые, понятные и поддерживаемые веб-решения.**
 
-## Features
-- B26 AI Systems content and multi-page structure
-- Leben in DE26 style functions: language switch, theme switch, mobile menu, contact modal, sticky mobile CTA
-- SEO files and GitHub Pages workflow
+## Чем занимаюсь
 
-## Deploy
-Upload all files to repository root and push to `main`.
+- Production web + AI personalization
+- Automation pipelines: CLI, Docker, GitHub-ready delivery
+- Adaptive behavioral profiles для LLM
+- Dev-infrastructure и быстрый деплой
+- Редизайн сайтов и упаковка проектов в full ZIP
+
+## Ключевой стек
+
+- Frontend: HTML, CSS, JavaScript
+- Backend / AI: Python, FastAPI, Ollama, Whisper
+- Infra: Docker, Traefik, GitHub Pages / CI
+- Tools: GitHub, CLI workflows, privacy-first architecture
+
+## Посмотреть в первую очередь
+
+- [Miniclip AI Pipeline](portfolio-item1.html) — полный production workflow
+- [Adaptive User Profile](portfolio-item2.html) — гибридная персонализация
+- [Local Dev-Cloud](portfolio-item3.html) — self-hosted инфраструктура
+
+## Сейчас в фокусе
+
+- Web Product Developer позиционирование
+- AI/web automation
+- Production-ready сайты и инструменты
+
+## Контакт
+
+- Email: shokalo160890@gmail.com

@@ -4,8 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <meta name="theme-color" content="#070b12" />
-  <meta name="description" content="Web Product Developer. Быстро собираю понятные, быстрые и поддерживаемые веб-решения с AI-персонализацией." />
-  <title>Oleksandr Shokalo — Web Product Developer | B26 AI Systems</title>
+  <meta name="description" content="AI systems, LLM personalization and automation architecture" />
+  <title>B26 AI Systems — Adaptive AI Architecture</title>
   <meta property="og:title" content="B26 AI Systems — Adaptive AI Architecture" />
   <meta property="og:description" content="AI systems, LLM personalization and automation architecture" />
   <meta property="og:type" content="website" />
@@ -58,10 +58,10 @@
       <h1 data-i18n-html="hero_title">Adaptive AI systems<br>for personalized interaction.</h1>
       <p class="hero-text" data-i18n="hero_text">Проектирование production‑архитектур для обновляемых поведенческих профилей, LLM‑памяти, AI‑observability, drift‑monitoring и автоматизированных контент‑пайплайнов.</p>
       <div class="hero-actions">
-          <a href="portfolio.html" class="cta">Смотреть 3 ключевых кейса</a>
-          <a href="resume.html" class="cta secondary">Резюме</a>
-          <a href="contact.html" class="cta secondary">Обсудить задачу</a>
-        </div>
+        <a class="btn-primary-custom interactive-btn magnetic-btn" href="portfolio.html"><span class="btn-label" data-i18n="view_cases">Смотреть кейсы</span><span class="btn-ripple"></span></a>
+        <a class="btn-secondary-custom interactive-btn" href="services.html"><span class="btn-label" data-i18n="view_services">Услуги</span></a>
+        <button class="btn-secondary-custom interactive-btn" onclick="toggleModal('contactPanel')"><span class="btn-label" data-i18n="contact_me">Связаться</span></button>
+      </div>
       <div class="hero-badges"><span>FastAPI</span><span>Docker</span><span>Ollama</span><span>Whisper</span><span>GitHub CI/CD</span><span>GDPR-aware</span></div>
       <div class="tiktok-proof-strip">
         <div class="tiktok-proof-item"><strong>5/5</strong><span>valid platforms in Miniclip delivery</span></div>
