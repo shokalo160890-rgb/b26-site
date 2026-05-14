@@ -1887,28 +1887,23 @@ body:has(.comparison-grid) .hero p {
   }
 }
 
-/* production unified hero spacing */
-body > .hero,
-body > .page-hero {
-  padding-top: 72px !important;
+/* final unified hero-section label spacing */
+.hero-section {
+  padding-top: 76px !important;
 }
 
-body > .hero > .container,
-body > .page-hero > .container {
-  padding-top: 0 !important;
+.hero-section.compact {
+  padding-top: 76px !important;
 }
 
-body > .hero .eyebrow,
-body > .page-hero .eyebrow {
-  display: block !important;
-  width: fit-content !important;
+.hero-section .eyebrow {
+  display: inline-flex !important;
   margin-top: 0 !important;
   margin-bottom: 22px !important;
   line-height: 1 !important;
 }
 
-body > .hero h1,
-body > .page-hero h1 {
+.hero-section h1 {
   margin-top: 0 !important;
   padding-top: 0 !important;
 }
