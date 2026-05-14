@@ -1887,19 +1887,19 @@ body:has(.comparison-grid) .hero p {
   }
 }
 
-/* final hero eyebrow + h1 alignment */
-.site-header + .hero,
-.site-header + .page-hero {
+/* production unified hero spacing */
+body > .hero,
+body > .page-hero {
   padding-top: 72px !important;
 }
 
-.site-header + .hero .container,
-.site-header + .page-hero .container {
+body > .hero > .container,
+body > .page-hero > .container {
   padding-top: 0 !important;
 }
 
-.site-header + .hero .eyebrow,
-.site-header + .page-hero .eyebrow {
+body > .hero .eyebrow,
+body > .page-hero .eyebrow {
   display: block !important;
   width: fit-content !important;
   margin-top: 0 !important;
@@ -1907,8 +1907,8 @@ body:has(.comparison-grid) .hero p {
   line-height: 1 !important;
 }
 
-.site-header + .hero h1,
-.site-header + .page-hero h1 {
+body > .hero h1,
+body > .page-hero h1 {
   margin-top: 0 !important;
   padding-top: 0 !important;
 }
