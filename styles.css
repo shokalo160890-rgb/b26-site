@@ -1860,7 +1860,6 @@ body.light-theme .final-floating-contact-menu a {
   line-height: 1.55;
 }
 
-.infrastructure-page .container,
 body:has(.comparison-grid) .container {
   max-width: 1180px;
 }
