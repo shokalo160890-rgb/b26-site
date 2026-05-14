@@ -1901,3 +1901,21 @@ body:has(.comparison-grid) .hero p {
   display: inline-block;
   margin-bottom: clamp(26px, 3vw, 38px) !important;
 }
+
+/* final unified top hero position */
+.site-header + .hero,
+.site-header + .page-hero {
+  padding-top: 72px !important;
+}
+
+.site-header + .hero .container,
+.site-header + .page-hero .container {
+  padding-top: 0 !important;
+}
+
+.site-header + .hero .eyebrow,
+.site-header + .page-hero .eyebrow {
+  display: inline-block !important;
+  margin-top: 0 !important;
+  margin-bottom: 28px !important;
+}
