@@ -1887,3 +1887,13 @@ body:has(.comparison-grid) .hero p {
     grid-template-columns: 1fr;
   }
 }
+
+
+/* infrastructure page hero alignment */
+.infrastructure-page .page-hero {
+  padding-top: clamp(96px, 9vw, 140px) !important;
+}
+
+.infrastructure-page .page-hero .eyebrow {
+  margin-bottom: 34px;
+}
