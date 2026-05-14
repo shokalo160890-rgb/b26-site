@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://shokalo160890-rgb.github.io/b26-site/sitemap.xml
+Sitemap: https://b26.online/sitemap.xml

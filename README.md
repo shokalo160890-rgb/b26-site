@@ -57,7 +57,7 @@
 
 ## Live
 
-https://shokalo160890-rgb.github.io/b26-site/
+https://b26.online/
 
 ## Позиционирование
 
