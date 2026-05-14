@@ -1829,3 +1829,61 @@ body.light-theme .final-floating-contact-menu a {
     height: 56px !important;
   }
 }
+
+/* infrastructure page upgrade */
+.infrastructure-grid,
+.infra-grid,
+.comparison-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+}
+
+.infrastructure-grid .info-card,
+.infra-grid .info-card,
+.comparison-grid .info-card {
+  min-height: 190px;
+  padding: 32px;
+}
+
+.infrastructure-grid h3,
+.infra-grid h3,
+.comparison-grid h3 {
+  font-size: clamp(22px, 2vw, 30px);
+  line-height: 1.05;
+}
+
+.infrastructure-grid p,
+.infra-grid p,
+.comparison-grid p {
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+.infrastructure-page .container,
+body:has(.comparison-grid) .container {
+  max-width: 1180px;
+}
+
+body:has(.comparison-grid) .hero h1 {
+  max-width: 920px;
+}
+
+body:has(.comparison-grid) .hero p {
+  max-width: 820px;
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+.comparison-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 28px;
+}
+
+@media (max-width: 900px) {
+  .infrastructure-grid,
+  .infra-grid,
+  .comparison-grid {
+    grid-template-columns: 1fr;
+  }
+}
