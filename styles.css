@@ -1889,11 +1889,16 @@ body:has(.comparison-grid) .hero p {
 }
 
 
-/* infrastructure page hero alignment */
-.infrastructure-page .page-hero {
-  padding-top: clamp(96px, 9vw, 140px) !important;
+
+
+/* unified hero eyebrow spacing */
+.hero,
+.page-hero {
+  padding-top: clamp(72px, 7vw, 104px) !important;
 }
 
-.infrastructure-page .page-hero .eyebrow {
-  margin-bottom: 34px;
+.hero .eyebrow,
+.page-hero .eyebrow {
+  display: inline-block;
+  margin-bottom: clamp(26px, 3vw, 38px) !important;
 }
