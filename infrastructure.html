@@ -14,34 +14,40 @@
 
 <body class="site-body">
 <header class="site-header">
-  <div class="container nav-wrap">
-    <a class="brand" href="index.html" aria-label="На главную">
-      <strong>Oleksandr Shokalo</strong>
-      <small>цифровая инфраструктура для бизнеса</small>
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="Oleksandr Shokalo home">
+      <span class="logo">B26</span>
+      <span class="brand-text">
+        <strong>Oleksandr Shokalo</strong>
+        <small>цифровая инфраструктура для бизнеса</small>
+      </span>
     </a>
-
     <nav class="desktop-nav">
       <a href="index.html">Главная</a>
-      <a href="infrastructure.html">Инфраструктура</a><a href="portfolio.html">Примеры</a>
+      <a class="active" href="infrastructure.html">Инфраструктура</a><a href="portfolio.html">Примеры</a>
       <a href="services.html">Услуги</a>
       <a href="blog.html">Статьи</a>
       <a href="about.html">Обо мне</a>
-      <a class="nav-cta nav-cta-btn" href="contact.html">Связаться</a>
-      <button class="clean-theme-toggle" type="button" aria-label="Toggle theme">Dark</button>
-    </nav>
-
-    <button class="mobile-menu-toggle" type="button" aria-label="Открыть меню">
-      <span></span><span></span>
-    </button>
+      <a class="nav-cta nav-cta-btn" href="contact.html">Связаться</a><button class="clean-theme-toggle" type="button" aria-label="Toggle theme">Dark</button></nav>
+    <div class="header-controls">
+      <div class="lang-switch" aria-label="Language switcher">
+        
+        
+        
+        
+      </div>
+      
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Открыть меню" type="button">☰</button>
+    </div>
   </div>
-
   <div class="mobile-nav" id="mobileNav">
     <a href="index.html">Главная</a>
     <a href="infrastructure.html">Инфраструктура</a><a href="portfolio.html">Примеры</a>
     <a href="services.html">Услуги</a>
     <a href="blog.html">Статьи</a>
     <a href="about.html">Обо мне</a>
-    <a class="mobile-nav-button" href="contact.html">Связаться</a>
+    <button class="mobile-nav-button" type="button" >Связаться</button>
+    <div class="mobile-controls-stack"><div class="lang-switch lang-switch-mobile" aria-label="Language switcher"></div></div>
   </div>
 </header>
 
