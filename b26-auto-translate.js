@@ -66,15 +66,27 @@
 
   const style = document.createElement("style");
   style.textContent = `
+    iframe.skiptranslate,
     .goog-te-banner-frame,
     .goog-te-balloon-frame,
+    .VIpgJd-ZVi9od-ORHb-OEVmcd,
+    .VIpgJd-ZVi9od-aZ2wEe-wOHMyf,
     #goog-gt-tt,
+    .goog-te-gadget,
     .goog-te-gadget-icon {
       display: none !important;
+      visibility: hidden !important;
+      height: 0 !important;
+      width: 0 !important;
+      opacity: 0 !important;
+      pointer-events: none !important;
     }
 
+    html,
     body {
       top: 0 !important;
+      margin-top: 0 !important;
+      position: static !important;
     }
 
     .goog-text-highlight {
@@ -82,6 +94,25 @@
       box-shadow: none !important;
     }
   `;
+
+  function removeGoogleTranslateBar() {
+    document.querySelectorAll(
+      "iframe.skiptranslate, .goog-te-banner-frame, .VIpgJd-ZVi9od-ORHb-OEVmcd"
+    ).forEach(el => {
+      el.style.display = "none";
+      el.style.visibility = "hidden";
+      el.style.height = "0";
+      el.style.width = "0";
+      el.style.opacity = "0";
+      el.style.pointerEvents = "none";
+    });
+
+    document.documentElement.style.top = "0";
+    document.body.style.top = "0";
+    document.body.style.marginTop = "0";
+  }
+
+  setInterval(removeGoogleTranslateBar, 300);
   document.head.appendChild(style);
 
   const script = document.createElement("script");
