@@ -26,7 +26,7 @@ const NAV_DICT = {
     nav_contact: "Contact",
     theme_dark: "Dark",
     theme_light: "Light",
-    email_subject: "Mini website request"
+    email_subject: "Digital infrastructure request"
   },
   de: {
     nav_home: "Start",
@@ -37,7 +37,7 @@ const NAV_DICT = {
     nav_contact: "Kontakt",
     theme_dark: "Dunkel",
     theme_light: "Hell",
-    email_subject: "Anfrage für Mini-Webseite"
+    email_subject: "Anfrage für digitale Infrastruktur"
   }
 };
 
