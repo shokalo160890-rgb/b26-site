@@ -1,7 +1,7 @@
 
 const SITE_CONFIG = {
   telegram: "https://t.me/shokalo160890",
-  whatsapp: "https://wa.me/?text=" + encodeURIComponent("Здравствуйте, хочу заказать мини-сайт") + encodeURIComponent("Здравствуйте, хочу заказать мини-сайт"),
+  whatsapp: "https://wa.me/?text=" + encodeURIComponent("Здравствуйте, хочу заказать цифровую инфраструктуру для бизнеса") + encodeURIComponent("Здравствуйте, хочу заказать цифровую инфраструктуру для бизнеса"),
   email: "shokalo160890@gmail.com"
 };
 
@@ -15,7 +15,7 @@ const NAV_DICT = {
     nav_contact: "Связаться",
     theme_dark: "Тёмная",
     theme_light: "Светлая",
-    email_subject: "Заявка на мини-сайт"
+    email_subject: "Заявка на цифровую инфраструктуру"
   },
   en: {
     nav_home: "Home",
@@ -75,7 +75,7 @@ function wireLinks() {
 
   document.querySelectorAll("a").forEach((a) => {
     const txt = (a.textContent || "").trim().toLowerCase();
-    if (["contact", "kontakt", "связаться", "заказать мини-сайт", "order a mini website"].includes(txt)) {
+    if (["contact", "kontakt", "связаться", "заказать цифровую инфраструктуру", "order digital infrastructure"].includes(txt)) {
       a.href = "contact.html";
       a.removeAttribute("data-link-key");
       a.style.pointerEvents = "auto";
@@ -248,9 +248,9 @@ document.addEventListener("DOMContentLoaded", function () {
   final.innerHTML = `
     <button class="final-floating-contact-btn" type="button" aria-label="Открыть контакты">✉</button>
     <div class="final-floating-contact-menu" aria-hidden="true">
-      <a href="mailto:shokalo160890@gmail.com?subject=${encodeURIComponent("Заявка на мини-сайт")}">Email</a>
+      <a href="mailto:shokalo160890@gmail.com?subject=${encodeURIComponent("Заявка на цифровую инфраструктуру")}">Email</a>
       <a href="https://t.me/shokalo160890" target="_blank" rel="noopener">Telegram</a>
-      <a href="https://wa.me/?text=${encodeURIComponent("Здравствуйте, хочу заказать мини-сайт")}" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="https://wa.me/?text=${encodeURIComponent("Здравствуйте, хочу заказать цифровую инфраструктуру для бизнеса")}" target="_blank" rel="noopener">WhatsApp</a>
     </div>
   `;
 
