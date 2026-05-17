@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#070b12" />
+  <meta name="description" content="Пакеты цифровой инфраструктуры: Start, Pro и Business. Домен, сервер, HTTPS, сайт, админ-панель, QR-код и live-ссылка." />
+  <title>Услуги — независимая цифровая инфраструктура для бизнеса</title>
+  <link rel="canonical" href="https://b26.online/services.html" />
+  <meta property="og:title" content="Услуги — независимая цифровая инфраструктура для бизнеса" />
+  <meta property="og:description" content="Пакеты цифровой инфраструктуры: Start, Pro и Business. Домен, сервер, HTTPS, сайт, админ-панель, QR-код и live-ссылка." />
+  <link rel="stylesheet" href="styles.css?v=1778678191" />
+</head>
+<body class="site-body">
+<div class="noise"></div>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="Oleksandr Shokalo home">
+      <span class="logo">B26</span>
+      <span class="brand-text">
+        <strong>Oleksandr Shokalo</strong>
+        <small>цифровая инфраструктура для бизнеса</small>
+      </span>
+    </a>
+    <nav class="desktop-nav">
+      <a href="index.html">Главная</a>
+      <a href="infrastructure.html">Инфраструктура</a><a href="portfolio.html">Примеры</a>
+      <a href="services.html">Услуги</a>
+      <a href="blog.html">Статьи</a>
+      <a href="about.html">Обо мне</a>
+      <a class="nav-cta nav-cta-btn" href="contact.html">Связаться</a><button class="clean-theme-toggle" type="button" aria-label="Toggle theme">Dark</button></nav>
+    <div class="header-controls">
+      <div class="lang-switch" aria-label="Language switcher">
+        
+        
+        
+        
+      </div>
+      
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Открыть меню" type="button">☰</button>
+    </div>
+  </div>
+  <div class="mobile-nav" id="mobileNav">
+    <a href="index.html">Главная</a>
+    <a href="infrastructure.html">Инфраструктура</a><a href="portfolio.html">Примеры</a>
+    <a href="services.html">Услуги</a>
+    <a href="blog.html">Статьи</a>
+    <a href="about.html">Обо мне</a>
+    <a class="mobile-nav-button" href="contact.html">Связаться</a>
+    <div class="mobile-controls-stack"><div class="lang-switch lang-switch-mobile" aria-label="Language switcher"></div></div>
+  </div>
+</header>
+<main id="top">
+  <section class="hero-section compact">
+    <div class="container reveal">
+      <div class="eyebrow">ТАРИФЫ И УСЛУГИ</div>
+      <h1>Независимая цифровая база для твоего бизнеса</h1>
+      <p>Я создаю не просто сайт, а полноценную инфраструктуру, которая работает на тебя годами.</p>
+    </div>
+  </section>
+
+  <section class="section-block">
+    <div class="container pricing-grid">
+      <article class="price-card info-card reveal">
+        <h3>Start</h3>
+        <p class="price">299 €</p>
+        <p>Базовый вариант для одного мастера или специалиста.</p>
+        <ul>
+          <li>Собственная страница</li>
+          <li>Mobile-first версия</li>
+          <li>Кнопки связи</li>
+          <li>Понятный оффер</li>
+          <li>Публикация на домене</li>
+        </ul>
+        <a class="cta" href="contact.html">Связаться</a>
+      </article>
+
+      <article class="price-card popular info-card reveal">
+        <span>Best</span>
+        <h3>Pro</h3>
+        <p class="price">499 €</p>
+        <p>Оптимальное решение для большинства мастеров и фрилансеров.</p>
+        <ul>
+          <li>3–5 секций</li>
+          <li>Услуги и цены</li>
+          <li>Фото / портфолио</li>
+          <li>Отзывы</li>
+          <li>QR-код</li>
+          <li>SEO-база</li>
+        </ul>
+        <a class="cta" href="contact.html">Связаться</a>
+      </article>
+
+      <article class="price-card info-card reveal">
+        <h3>Business</h3>
+        <p class="price">от 900 €</p>
+        <p>Расширенная инфраструктура для малого бизнеса и нескольких услуг.</p>
+        <ul>
+          <li>Несколько страниц</li>
+          <li>Расширенное портфолио</li>
+          <li>Форма заявки</li>
+          <li>SEO-структура</li>
+          <li>GitHub / хостинг</li>
+          <li>Тексты под продажи</li>
+        </ul>
+        <a class="cta" href="contact.html">Связаться</a>
+      </article>
+    </div>
+  </section>
+
+  <section class="section-block">
+    <div class="container reveal">
+      <h2>Что входит</h2>
+      <div class="cards-grid">
+        <article class="info-card"><h3>Кто вы</h3><p>Короткое описание, которое объясняет вашу работу простым языком.</p></article>
+        <article class="info-card"><h3>Что вы предлагаете</h3><p>Услуги, цены, условия, фото работ и понятная структура.</p></article>
+        <article class="info-card"><h3>Как заказать</h3><p>Кнопки WhatsApp, Telegram, телефон, email и форма заявки.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-block">
+    <div class="container reveal">
+      <h2>Как работаем</h2>
+      <div class="timeline">
+        <div><b>01</b><p>Вы присылаете услуги, фото, цены и контакты.</p></div>
+        <div><b>02</b><p>Я собираю структуру, дизайн, тексты и мобильную версию.</p></div>
+        <div><b>03</b><p>Вы получаете live-ссылку, которую можно отправлять клиентам.</p></div>
+      </div>
+      <a class="cta" href="contact.html">Связаться</a>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div><strong>Oleksandr Shokalo</strong><p>Собственный домен · сервер · сайт · контроль.</p></div>
+    <div class="footer-links"><a href="infrastructure.html">Инфраструктура</a>
+      <a href="portfolio.html">Примеры</a><a href="services.html">Услуги</a><a href="blog.html">Статьи</a><a href="contact.html">Связаться</a></div>
+  </div>
+</footer>
+<script src="scripts.js?v=1778678191"></script>
+  <script src="b26-auto-translate.js?v=1"></script>
+</body>
+</html>
