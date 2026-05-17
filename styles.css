@@ -1908,3 +1908,19 @@ body:has(.comparison-grid) .hero p {
   padding-top: 0 !important;
 }
 
+
+
+.audience-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.audience-tags span {
+  padding: 10px 14px;
+  border: 1px solid rgba(255,255,255,.14);
+  border-radius: 999px;
+  background: rgba(255,255,255,.04);
+  font-size: 14px;
+}
