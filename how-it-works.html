@@ -8,17 +8,42 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header>
-  <nav>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="Oleksandr Shokalo home">
+      <span class="logo">B26</span>
+      <span class="brand-text">
+        <strong>Oleksandr Shokalo</strong>
+        <small>цифровая инфраструктура для бизнеса</small>
+      </span>
+    </a>
+    <nav class="desktop-nav">
+      <a href="index.html">Главная</a>
+      <a href="infrastructure.html">Инфраструктура</a><a href="portfolio.html">Примеры</a>
+      <a href="services.html">Услуги</a><a href="how-it-works.html">Как это работает</a>
+      <a href="blog.html">Статьи</a>
+      <a href="about.html">Обо мне</a>
+      <a class="nav-cta nav-cta-btn" href="contact.html">Связаться</a><button class="clean-theme-toggle" type="button" aria-label="Toggle theme">Dark</button></nav>
+    <div class="header-controls">
+      <div class="lang-switch" aria-label="Language switcher">
+        
+        
+        
+        
+      </div>
+      
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Открыть меню" type="button">☰</button>
+    </div>
+  </div>
+  <div class="mobile-nav" id="mobileNav">
     <a href="index.html">Главная</a>
-    <a href="infrastructure.html">Инфраструктура</a>
-    <a href="portfolio.html">Примеры</a>
+    <a href="infrastructure.html">Инфраструктура</a><a href="portfolio.html">Примеры</a>
     <a href="services.html">Услуги</a>
-    <a href="how-it-works.html">Как это работает</a>
     <a href="blog.html">Статьи</a>
     <a href="about.html">Обо мне</a>
-    <a href="contact.html">Связаться</a>
-  </nav>
+    <a class="mobile-nav-button" href="contact.html">Связаться</a>
+    <div class="mobile-controls-stack"><div class="lang-switch lang-switch-mobile" aria-label="Language switcher"></div></div>
+  </div>
 </header>
 
 <main>
@@ -56,15 +81,12 @@
   </section>
 </main>
 
-<footer>
-  <p>Oleksandr Shokalo</p>
-  <p>Собственный домен · сервер · сайт · контроль.</p>
-  <p>
-    <a href="infrastructure.html">Инфраструктура</a>
-    <a href="portfolio.html">Примеры</a>
-    <a href="services.html">Услуги</a>
-    <a href="contact.html">Связаться</a>
-  </p>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div><strong>Oleksandr Shokalo</strong><p>Собственный домен · сервер · сайт · контроль.</p></div>
+    <div class="footer-links"><a href="infrastructure.html">Инфраструктура</a>
+      <a href="portfolio.html">Примеры</a><a href="services.html">Услуги</a><a href="blog.html">Статьи</a><a href="contact.html">Связаться</a></div>
+  </div>
 </footer>
 
 <script src="scripts.js"></script>
