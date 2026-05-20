@@ -5,7 +5,7 @@
   <title>Как это работает — B26 цифровая инфраструктура</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Как проходит запуск production-ready цифровой инфраструктуры: бриф, домен, VPS, HTTPS, сайт, админка, Media Manager, backup и передача клиенту.">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=1779265576">
 </head>
 <body>
 <header class="site-header">
@@ -17,13 +17,7 @@
         <small>цифровая инфраструктура для бизнеса</small>
       </span>
     </a>
-    <nav class="desktop-nav">
-      <a href="index.html">Главная</a>
-      <a href="infrastructure.html">Инфраструктура</a><a href="portfolio.html">Примеры</a>
-      <a href="services.html">Услуги</a><a href="how-it-works.html">Как это работает</a>
-      <a href="blog.html">Статьи</a>
-      <a href="about.html">Обо мне</a>
-      <a class="nav-cta nav-cta-btn" href="contact.html">Связаться</a><button class="clean-theme-toggle" type="button" aria-label="Toggle theme">Dark</button></nav>
+    <nav class="site-nav" aria-label="Main navigation"><a class="nav-link" href="index.html">Главная</a><a class="nav-link" href="infrastructure.html">Инфраструктура</a><a class="nav-link active" href="how-it-works.html">Как это работает</a><a class="nav-link" href="portfolio.html">Примеры</a><a class="nav-link" href="services.html">Услуги</a><a class="nav-link" href="blog.html">Статьи</a><a class="nav-link" href="about.html">Обо мне</a><a class="nav-cta nav-cta-btn" href="contact.html">Связаться</a></nav>
     <div class="header-controls">
       <div class="lang-switch" aria-label="Language switcher">
         
@@ -57,7 +51,8 @@
     </p>
   </section>
 
-  <section>
+  <!-- CMS:process_steps -->
+<section data-upgrade="process-steps">
     <h2>Процесс запуска</h2>
     <div class="cards">
       <article><h3>1. Бриф</h3><p>Вы описываете бизнес, услуги, город, контакты, фото, цены и главную цель сайта.</p></article>
@@ -71,13 +66,14 @@
       <article><h3>9. Передача</h3><p>Вы получаете ссылку на сайт, логин в админку, инструкцию и финальный snapshot.</p></article>
     </div>
   </section>
+<!-- /CMS:process_steps -->
 
   <section>
     <p class="section-kicker">RESULT</p>
     <h2>Что получается в финале</h2>
     <p>Один отдельный production setup: домен, VPS, HTTPS, сайт, мобильная админка, CMS, Media Manager, backup, monitoring и полный контроль контента.</p>
-    <p><strong>Стартовая цена индивидуального setup — от 700 €.</strong></p>
-    <p><a href="contact.html">Хочу такой же цифровой комплект</a></p>
+    <p><strong>Стартовая цена индивидуального setup — VB.</strong></p>
+    <p><a class="cta final-cta-button" href="contact.html">Связаться</a></p>
   </section>
 </main>
 

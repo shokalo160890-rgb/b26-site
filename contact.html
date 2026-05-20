@@ -10,9 +10,9 @@
   <meta property="og:title" content="Контакт — заказать цифровую инфраструктуру" />
   <meta property="og:description" content="Заказать цифровую базу для бизнеса: услуги, фото, цены, контакты, WhatsApp, Telegram и готовая live-ссылка." />
   <meta property="og:type" content="website" />
-  <link rel="stylesheet" href="styles.css?v=1778678191" />
+  <link rel="stylesheet" href="styles.css?v=1779265576" />
 </head>
-<body class="site-body">
+<body class="site-body contact-page">
 <div class="noise"></div>
 
 <header class="site-header">
@@ -24,13 +24,7 @@
         <small>цифровая инфраструктура для бизнеса</small>
       </span>
     </a>
-    <nav class="desktop-nav">
-      <a href="index.html">Главная</a>
-      <a href="infrastructure.html">Инфраструктура</a><a href="portfolio.html">Примеры</a>
-      <a href="services.html">Услуги</a><a href="how-it-works.html">Как это работает</a>
-      <a href="blog.html">Статьи</a>
-      <a href="about.html">Обо мне</a>
-      <a class="nav-cta nav-cta-btn" href="contact.html">Комплект</a><button class="clean-theme-toggle" type="button" aria-label="Toggle theme">Dark</button></nav>
+    <nav class="site-nav" aria-label="Main navigation"><a class="nav-link" href="index.html">Главная</a><a class="nav-link" href="infrastructure.html">Инфраструктура</a><a class="nav-link" href="how-it-works.html">Как это работает</a><a class="nav-link" href="portfolio.html">Примеры</a><a class="nav-link" href="services.html">Услуги</a><a class="nav-link" href="blog.html">Статьи</a><a class="nav-link" href="about.html">Обо мне</a><a class="nav-cta nav-cta-btn" href="contact.html">Связаться</a></nav>
     <div class="header-controls">
       <div class="lang-switch" aria-label="Language switcher">
         
@@ -48,7 +42,7 @@
     <a href="services.html">Услуги</a>
     <a href="blog.html">Статьи</a>
     <a href="about.html">Обо мне</a>
-    <a class="mobile-nav-button" href="contact.html">Комплект</a>
+    
     <div class="mobile-controls-stack"><div class="lang-switch lang-switch-mobile" aria-label="Language switcher"></div></div>
   </div>
 </header>
@@ -58,29 +52,34 @@
     <div class="container reveal">
       <div class="eyebrow">СВЯЗАТЬСЯ</div>
       <h1>Заказать цифровую базу для бизнеса</h1>
-      <p>Напишите, чем вы занимаетесь, какие услуги предлагаете и куда клиент должен обращаться. Я соберу отдельную цифровую систему, которой можно управлять с телефона и развивать под вашу задачу.</p>
+      <p>Напишите, чем вы занимаетесь, какие услуги предлагаете и куда клиент должен обращаться.</p>
     </div>
   </section>
 
   <section class="section-block">
     <div class="container proof-layout">
-      <div class="info-card reveal">
-        <h2>Что отправить</h2>
-        <p>Достаточно короткой информации. Остальное можно доработать в процессе.</p>
-        <ul>
-          <li>Имя / название бизнеса</li>
-          <li>Услуги</li>
-          <li>Цены или диапазон</li>
-          <li>Фото работ</li>
-          <li>Telegram / WhatsApp / телефон</li>
-        </ul>
-        <div class="hero-actions">
-          <a class="btn-primary-custom" data-link-key="email" href="mailto:shokalo160890@gmail.com?subject=Заявка%20на%20цифровую%20инфраструктуру">Хочу такой же цифровой комплект</a>
-          <a class="btn-secondary-custom" data-link-key="telegram" href="https://t.me/shokalo160890" target="_blank" rel="noopener">Telegram</a>
-        </div>
-      </div>
+      <div class="contact-info-card contact-clean-card">
+  <h2>Что отправить</h2>
+  <p>Достаточно короткой информации. Остальное можно доработать в процессе.</p>
 
-      <form class="contact-form reveal" onsubmit="return sendMailForm(event)">
+  <ul>
+    <li>Имя / название бизнеса</li>
+    <li>Услуги</li>
+    <li>Цены или диапазон</li>
+    <li>Фото работ</li>
+    <li>Telegram / WhatsApp / телефон</li>
+  </ul>
+
+  <div class="contact-quick-channels">
+    <p class="contact-quick-title">Быстрая связь:</p>
+    <div class="contact-quick-buttons">
+      <a class="contact-channel-button" href="mailto:shokalo160890@gmail.com">Email</a>
+      <a class="contact-channel-button" href="https://wa.me/4917625946679" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="contact-channel-button" href="https://t.me/shokalo160890" target="_blank" rel="noopener">Telegram</a>
+    </div>
+  </div>
+</div>
+<form class="contact-form reveal" onsubmit="return sendMailForm(event)">
         <label>Имя<input type="text" name="name" required></label>
         <label>Email<input type="email" name="email" required></label>
         <label>Задача<textarea name="message" rows="7" required placeholder="Например: нужна цифровая база для мастера по ремонту. Есть фото работ, WhatsApp и список услуг."></textarea></label>
@@ -101,15 +100,12 @@
       Базовая формула: один человек = один домен + один сайт + одна мобильная админка + один backup-контур.
     </p>
     <p>
-      Стартовая цена индивидуального setup — от 700 €.
+      Стартовая цена индивидуального setup — VB.
     </p>
   </div>
 </section>
 
-</main>
-
-
-
+<!-- CMS:contact_brief -->
 <section class="b26-commercial-upgrade" data-upgrade="contact-brief-block">
   <div class="section-kicker">BRIEF</div>
   <h2>Что отправить для старта</h2>
@@ -119,14 +115,16 @@
     <article><h3>3. Что нужно собрать</h3><p>Сайт услуги, портфолио, личный профиль, страница проекта или цифровая база малого бизнеса.</p></article>
     <article><h3>4. Какие контакты поставить</h3><p>Телефон, email, WhatsApp, Telegram, Instagram, Google Business.</p></article>
   </div>
-  <p><strong>Проект начинается после:</strong> брифа, структуры, материалов, бюджета и предоплаты.</p>
+  <p><strong>Проект начинается после: брифа, структуры, материалов, бюджета и предоплаты.</strong></p>
 </section>
+<!-- /CMS:contact_brief -->
+</main>
 
 <footer class="site-footer">
   <div class="container footer-inner">
     <div><strong>Oleksandr Shokalo</strong><p>Собственный домен · сервер · сайт · контроль.</p></div>
     <div class="footer-links"><a href="infrastructure.html">Инфраструктура</a>
-      <a href="portfolio.html">Примеры</a><a href="services.html">Услуги</a><a href="blog.html">Статьи</a><a href="contact.html">Хочу такой же цифровой комплект</a></div>
+      <a href="portfolio.html">Примеры</a><a href="services.html">Услуги</a><a href="blog.html">Статьи</a></div>
   </div>
 </footer>
 <div class="mobile-tiktok-bar">
