@@ -9,10 +9,10 @@ const NAV_DICT = {
   ru: {
     nav_home: "Главная",
     nav_examples: "Примеры",
-    nav_services: "Услуги",
+    nav_services: "Комплект",
     nav_articles: "Статьи",
     nav_about: "Обо мне",
-    nav_contact: "Связаться",
+    nav_contact: "Обсудить проект",
     theme_dark: "Тёмная",
     theme_light: "Светлая",
     email_subject: "Заявка на цифровую инфраструктуру"
@@ -75,7 +75,7 @@ function wireLinks() {
 
   document.querySelectorAll("a").forEach((a) => {
     const txt = (a.textContent || "").trim().toLowerCase();
-    if (["contact", "kontakt", "связаться", "заказать цифровую инфраструктуру", "order digital infrastructure"].includes(txt)) {
+    if (["contact", "kontakt", "обсудить проект", "заказать цифровую систему", "order digital system"].includes(txt)) {
       a.href = "contact.html";
       a.removeAttribute("data-link-key");
       a.style.pointerEvents = "auto";
