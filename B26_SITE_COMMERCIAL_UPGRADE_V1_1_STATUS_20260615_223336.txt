@@ -1,0 +1,28 @@
+B26 SITE COMMERCIAL UPGRADE V1.1
+
+Date: Mo 15. Jun 22:33:36 CEST 2026
+Status: LOCAL QA READY
+
+Changed:
+- one product positioning
+- договорная цена instead of fixed/from price
+- unified menu
+- unified CTA: Обсудить проект
+- services renamed to Комплект
+- contact page simplified
+- infrastructure copy aligned
+- portfolio copy aligned
+
+Checks:
+HTTP local preview: OK
+Navigation / CTA: OK
+Commercial text cleanup: OK
+Required copy: OK
+Internal links: OK
+Git diff whitespace: OK
+
+Production:
+Not touched.
+
+Next:
+Visual mobile QA -> commit -> deploy -> production HTTP/admin/.git check -> snapshot -> sync b26-core.
