@@ -1,7 +1,7 @@
 
 const SITE_CONFIG = {
   telegram: "https://t.me/shokalo160890",
-  whatsapp: "https://wa.me/?text=" + encodeURIComponent("Здравствуйте, хочу заказать цифровую инфраструктуру для бизнеса") + encodeURIComponent("Здравствуйте, хочу заказать цифровую инфраструктуру для бизнеса"),
+  whatsapp: "https://wa.me/?text=" + encodeURIComponent("Здравствуйте, хочу заказать цифровую инфраструктуру для бизнеса"),
   email: "shokalo160890@gmail.com"
 };
 
@@ -130,11 +130,14 @@ function sendMailForm(e) {
   const subject = NAV_DICT[lang]?.email_subject || NAV_DICT.ru.email_subject;
 
   const body = [
-    "Name: " + (fd.get("name") || ""),
+    "Имя: " + (fd.get("name") || ""),
     "Email: " + (fd.get("email") || ""),
+    "Ниша / деятельность: " + (fd.get("business") || ""),
+    "Ссылка: " + (fd.get("link") || ""),
     "",
+    "Что нужно собрать:",
     fd.get("message") || ""
-  ].join("\\n");
+  ].join("\n");
 
   location.href = "mailto:" + SITE_CONFIG.email + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
   return false;
