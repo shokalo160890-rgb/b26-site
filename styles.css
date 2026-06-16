@@ -4106,3 +4106,54 @@ body.contact-page .nav-cta-btn {
     display: grid !important;
   }
 }
+
+
+/* B26 theme toggle fix v2.3 */
+.b26-theme-control {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-height: 40px !important;
+  padding: 0 14px !important;
+  border-radius: 12px !important;
+  border: 1px solid var(--line-strong) !important;
+  background: var(--card-2) !important;
+  color: var(--text) !important;
+  font-size: 13px !important;
+  font-weight: 800 !important;
+  cursor: pointer !important;
+  white-space: nowrap !important;
+}
+
+.b26-theme-control:hover {
+  background: var(--card) !important;
+  color: var(--accent-2) !important;
+}
+
+.b26-theme-control-mobile {
+  width: 100% !important;
+  min-height: 46px !important;
+  margin-top: 8px !important;
+}
+
+@media (max-width: 1100px) {
+  .b26-theme-control-desktop {
+    display: none !important;
+  }
+
+  .mobile-controls-stack {
+    display: grid !important;
+    gap: 8px !important;
+    width: 100% !important;
+  }
+
+  .mobile-nav .b26-theme-control-mobile {
+    display: inline-flex !important;
+  }
+}
+
+@media (min-width: 1101px) {
+  .b26-theme-control-mobile {
+    display: none !important;
+  }
+}
