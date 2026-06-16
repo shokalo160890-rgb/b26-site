@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://b26.online/</loc><lastmod>2026-05-13</lastmod><priority>1.0</priority></url>
-  <url><loc>https://b26.online/portfolio.html</loc><lastmod>2026-05-13</lastmod><priority>0.9</priority></url>
-  <url><loc>https://b26.online/portfolio-item1.html</loc><lastmod>2026-05-13</lastmod><priority>0.8</priority></url>
-  <url><loc>https://b26.online/portfolio-item2.html</loc><lastmod>2026-05-13</lastmod><priority>0.8</priority></url>
-  <url><loc>https://b26.online/portfolio-item3.html</loc><lastmod>2026-05-13</lastmod><priority>0.8</priority></url>
-  <url><loc>https://b26.online/infrastructure.html</loc><lastmod>2026-05-14</lastmod><priority>0.9</priority></url>
-  <url><loc>https://b26.online/services.html</loc><lastmod>2026-05-13</lastmod><priority>0.8</priority></url>
-  <url><loc>https://b26.online/resume.html</loc><lastmod>2026-05-13</lastmod><priority>0.9</priority></url>
-  <url><loc>https://b26.online/about.html</loc><lastmod>2026-05-13</lastmod><priority>0.7</priority></url>
-  <url><loc>https://b26.online/blog.html</loc><lastmod>2026-05-13</lastmod><priority>0.7</priority></url>
-  <url><loc>https://b26.online/blog-post1.html</loc><lastmod>2026-05-13</lastmod><priority>0.6</priority></url>
-  <url><loc>https://b26.online/blog-post2.html</loc><lastmod>2026-05-13</lastmod><priority>0.6</priority></url>
-  <url><loc>https://b26.online/blog-post3.html</loc><lastmod>2026-05-13</lastmod><priority>0.6</priority></url>
-  <url><loc>https://b26.online/contact.html</loc><lastmod>2026-05-13</lastmod><priority>0.6</priority></url>
+  <url><loc>https://b26.online/</loc><lastmod>2026-06-16</lastmod><priority>1.0</priority></url>
+  <url><loc>https://b26.online/services.html</loc><lastmod>2026-06-16</lastmod><priority>0.9</priority></url>
+  <url><loc>https://b26.online/portfolio.html</loc><lastmod>2026-06-16</lastmod><priority>0.9</priority></url>
+  <url><loc>https://b26.online/how-it-works.html</loc><lastmod>2026-06-16</lastmod><priority>0.8</priority></url>
+  <url><loc>https://b26.online/infrastructure.html</loc><lastmod>2026-06-16</lastmod><priority>0.8</priority></url>
+  <url><loc>https://b26.online/contact.html</loc><lastmod>2026-06-16</lastmod><priority>0.8</priority></url>
+  <url><loc>https://b26.online/case-b26.html</loc><lastmod>2026-06-16</lastmod><priority>0.7</priority></url>
 </urlset>
