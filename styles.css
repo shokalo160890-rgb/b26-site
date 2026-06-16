@@ -3910,3 +3910,63 @@ body.contact-page .nav-cta-btn {
     min-height: auto;
   }
 }
+
+
+/* B26 portfolio cases upgrade v1.4 */
+.b26-portfolio-v14 {
+  padding-top: 72px;
+}
+.b26-case-grid-v14 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+.b26-case-v14 {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  padding: 24px;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  background: linear-gradient(180deg,var(--card-2),var(--card));
+  box-shadow: var(--shadow);
+}
+.b26-case-tag {
+  display: inline-flex;
+  width: fit-content;
+  margin-bottom: 14px;
+  padding: 7px 11px;
+  border-radius: 999px;
+  border: 1px solid rgba(135,173,255,.28);
+  color: var(--accent-2);
+  background: rgba(95,143,255,.10);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .04em;
+}
+.b26-case-v14 h3 {
+  margin: 0 0 16px;
+  font-size: 26px;
+  line-height: 1.08;
+}
+.b26-case-flow {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 22px;
+}
+.b26-case-flow p {
+  margin: 0;
+  color: var(--muted);
+}
+.b26-case-flow strong {
+  color: var(--text);
+}
+.b26-case-v14 .cta {
+  margin-top: auto;
+  width: fit-content;
+}
+@media(max-width:1024px){
+  .b26-case-grid-v14 {
+    grid-template-columns: 1fr;
+  }
+}
