@@ -2,7 +2,7 @@
 const SITE_CONFIG = {
   telegram: "https://t.me/shokalo160890",
   whatsapp: "https://wa.me/?text=" + encodeURIComponent("Здравствуйте, хочу заказать цифровую инфраструктуру для бизнеса"),
-  email: "shokalo160890@gmail.com"
+  email: "b26online@gmail.com"
 };
 
 const NAV_DICT = {
@@ -251,7 +251,7 @@ document.addEventListener("DOMContentLoaded", function () {
   final.innerHTML = `
     <button class="final-floating-contact-btn" type="button" aria-label="Открыть контакты">✉</button>
     <div class="final-floating-contact-menu" aria-hidden="true">
-      <a href="mailto:shokalo160890@gmail.com?subject=${encodeURIComponent("Заявка на цифровую инфраструктуру")}">Email</a>
+      <a href="mailto:b26online@gmail.com?subject=${encodeURIComponent("Заявка на цифровую инфраструктуру")}">Email</a>
       <a href="https://t.me/shokalo160890" target="_blank" rel="noopener">Telegram</a>
       <a href="https://wa.me/?text=${encodeURIComponent("Здравствуйте, хочу заказать цифровую инфраструктуру для бизнеса")}" target="_blank" rel="noopener">WhatsApp</a>
     </div>
