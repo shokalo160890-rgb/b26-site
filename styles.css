@@ -4065,3 +4065,44 @@ body.contact-page .nav-cta-btn {
     display: grid !important;
   }
 }
+
+/* B26 mobile nav hard fix v2.1 */
+@media (max-width: 1100px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden !important;
+  }
+
+  .site-header,
+  .header-inner {
+    max-width: 100%;
+    overflow-x: hidden !important;
+  }
+
+  .site-header .site-nav,
+  nav.site-nav {
+    display: none !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+    width: 0 !important;
+    max-width: 0 !important;
+    height: 0 !important;
+    overflow: hidden !important;
+  }
+
+  .mobile-menu-btn {
+    display: inline-grid !important;
+    place-items: center !important;
+    flex: 0 0 44px !important;
+  }
+
+  .mobile-nav {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .mobile-nav.active {
+    display: grid !important;
+  }
+}
