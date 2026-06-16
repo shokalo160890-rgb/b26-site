@@ -4049,3 +4049,19 @@ body.contact-page .nav-cta-btn {
     grid-template-columns: 1fr;
   }
 }
+
+/* B26 mobile menu overlap fix v2.0 */
+@media (max-width: 768px) {
+  .site-nav {
+    display: none !important;
+  }
+
+  .mobile-menu-btn {
+    display: inline-grid !important;
+    place-items: center;
+  }
+
+  .mobile-nav.active {
+    display: grid !important;
+  }
+}
