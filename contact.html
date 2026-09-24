@@ -4,28 +4,28 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <meta name="theme-color" content="#070b12" />
-  <meta name="description" content="Обсудить персональную цифровую систему B26: задача, состав комплекта, срок и договорная фиксированная цена." />
+  <meta name="description" content="Опишите задачу B26 и получите состав цифровой системы, следующий шаг и предварительный расчёт без автоматического заказа." />
   <title>Получить предварительный расчёт — B26</title>
   <link rel="canonical" href="https://b26.online/contact.html" />
   <meta property="og:title" content="Получить предварительный расчёт — B26" />
-  <meta property="og:description" content="Обсудить персональную цифровую систему B26: задача, состав комплекта, срок и договорная фиксированная цена." />
+  <meta property="og:description" content="Опишите задачу и получите состав цифровой системы, следующий шаг и предварительный расчёт." />
   <meta property="og:type" content="website" />
   <link rel="stylesheet" href="styles.css?v=1779265576" />
 
   <meta property="og:url" content="https://b26.online/contact.html" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Получить предварительный расчёт — B26" />
-  <meta name="twitter:description" content="Обсудить персональную цифровую систему B26: задача, состав комплекта, срок и договорная фиксированная цена." /></head>
-<body class="site-body contact-page">
+  <meta name="twitter:description" content="Опишите задачу и получите состав цифровой системы, следующий шаг и предварительный расчёт." /></head>
+<body class="site-body contact-page premium-contact">
 <div class="noise"></div>
 
 <header class="site-header">
   <div class="container header-inner">
-    <a class="brand" href="index.html" aria-label="Oleksandr Shokalo home">
+    <a class="brand" href="index.html" aria-label="B26 — главная">
       <span class="logo">B26</span>
       <span class="brand-text">
-        <strong>Oleksandr Shokalo</strong>
-        <small>персональные цифровые системы</small>
+        <strong>B26</strong>
+        <small>цифровая система для бизнеса</small>
       </span>
     </a>
     <nav class="site-nav" aria-label="Main navigation"><a class="nav-link" href="index.html">Главная</a><a class="nav-link" href="services.html">Комплект</a><a class="nav-link" href="portfolio.html">Примеры</a><a class="nav-link" href="how-it-works.html">Как работаем</a><a class="nav-link" href="infrastructure.html">Инфраструктура</a><a class="nav-cta nav-cta-btn" href="contact.html">Обсудить проект</a></nav>
@@ -42,7 +42,6 @@
     </div>
   </div>
   <div class="mobile-nav" id="mobileNav"><a href="index.html">Главная</a><a href="services.html">Комплект</a><a href="portfolio.html">Примеры</a><a href="how-it-works.html">Как работаем</a><a href="infrastructure.html">Инфраструктура</a><a class="mobile-nav-button" href="contact.html">Обсудить проект</a><div class="mobile-controls-stack"><div class="lang-switch lang-switch-mobile" aria-label="Language switcher"></div><button class="clean-theme-toggle b26-theme-control b26-theme-control-mobile" type="button" aria-label="Переключить тему">Theme: Dark</button></div></div>
-  </div>
 </header>
 
 <main id="top">
@@ -50,7 +49,7 @@
     <div class="container reveal">
       <div class="eyebrow">ОБСУЖДЕНИЕ ПРОЕКТА</div>
       <h1>Получить предварительный расчёт вашей цифровой системы</h1>
-      <p>Опишите задачу коротко. Я посмотрю, какой комплект нужен, какие страницы и функции входят, и верну понятный следующий шаг без обязательств.</p>
+      <p>Опишите бизнес или проект коротко. В ответ вы получите подходящий состав системы, следующий шаг и предварительный расчёт без автоматического заказа.</p>
     </div>
   </section>
 
@@ -84,17 +83,18 @@
         </div>
       </div>
 
-      <form class="contact-form reveal b26-request-form-v15" onsubmit="return sendMailForm(event)">
+      <form class="contact-form reveal b26-request-form-v15" onsubmit="return sendMailForm(event)" data-endpoint="" data-delivery="mailto-only">
         <h2>Заявка на расчёт</h2>
-        <p>Форма откроет письмо с готовым текстом. Детали можно дописать перед отправкой.</p>
+        <p>Сейчас форма подготавливает письмо в вашем почтовом приложении. Автоматическая server-side доставка ещё не подключена.</p>
 
-        <label>Имя<input type="text" name="name" required placeholder="Ваше имя"></label>
-        <label>Email<input type="email" name="email" required placeholder="name@email.com"></label>
-        <label>Ниша / деятельность<input type="text" name="business" placeholder="Например: ремонт, клининг, фриланс, обучение"></label>
-        <label>Ссылка на текущие соцсети или сайт<input type="url" name="link" placeholder="https://..."></label>
-        <label>Что нужно собрать<textarea name="message" rows="8" required placeholder="Например: я мастер по ремонту. Нужен сайт с предложением, фото работ, ценами, WhatsApp, Telegram и мобильным управлением."></textarea></label>
+        <label>Имя<input type="text" name="name" required maxlength="100" autocomplete="name" placeholder="Ваше имя"></label>
+        <label>Email<input type="email" name="email" required maxlength="254" autocomplete="email" placeholder="name@email.com"></label>
+        <label>Ниша / деятельность<input type="text" name="business" maxlength="160" autocomplete="organization" placeholder="Например: ремонт, клининг, фриланс, обучение"></label>
+        <label>Ссылка на текущие соцсети или сайт<input type="url" name="link" maxlength="500" inputmode="url" placeholder="https://..."></label>
+        <label>Что нужно собрать<textarea name="message" rows="8" required maxlength="3000" placeholder="Например: я мастер по ремонту. Нужен сайт с предложением, фото работ, ценами и понятными контактами."></textarea></label>
 
         <button class="btn-primary-custom" type="submit">Получить предварительный расчёт</button>
+        <p class="b26-form-status" data-form-status aria-live="polite">Автоматическая отправка: не подключена. После нажатия проверьте и отправьте подготовленное письмо.</p>
         <p class="b26-form-note">Отправка формы не означает заказ. Сначала обсуждаем задачу, состав комплекта, срок и цену.</p>
       </form>
     </div>
@@ -108,8 +108,9 @@
         Я уточню задачу, предложу состав комплекта, объясню что входит в работу и только после этого фиксируется итоговая цена.
       </p>
       <p>
-        Базовая формула: один человек = один домен + один сайт + одна мобильная админка + один backup-контур.
+        Для автоматической доставки формы нужны endpoint, адрес получателя или notification provider, правила хранения данных и политика rate limit.
       </p>
+      <p><strong>REQUIRES OWNER DATA:</strong> способ уведомления, получатель, срок хранения заявок и решение по privacy/consent.</p>
       <a href="mailto:b26online@gmail.com?subject=%D0%97%D0%B0%D1%8F%D0%B2%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%83%D1%8E%20%D1%86%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D1%83%D1%8E%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%83%20B26" class="cta">Написать напрямую</a>
     </div>
   </section>
@@ -118,7 +119,7 @@
 
 <footer class="site-footer">
   <div class="container footer-inner">
-    <div><strong>Oleksandr Shokalo</strong><p>Собственный домен · сервер · сайт · контроль.</p></div>
+    <div><strong>B26</strong><p>Одна цифровая система для предложения, контакта и развития.</p></div>
     <div class="footer-links"><a href="infrastructure.html">Инфраструктура</a>
       <a href="portfolio.html">Примеры</a><a href="services.html">Комплект</a></div>
   </div>
