@@ -79,34 +79,7 @@ function getBrowserLang() {
 function applyNavLanguage() { return; }
 
 function wireLinks() {
-  document.querySelectorAll("[data-link-key]").forEach((a) => {
-    const key = a.dataset.linkKey;
-
-    if (key === "email") {
-      const subject = NAV_DICT[getBrowserLang()]?.email_subject || NAV_DICT.ru.email_subject;
-      a.href = "mailto:" + SITE_CONFIG.email + "?subject=" + encodeURIComponent(subject);
-      a.style.display = "";
-    }
-
-    if (key === "telegram") {
-      a.href = SITE_CONFIG.telegram;
-      a.style.display = "";
-    }
-
-    if (key === "whatsapp") {
-      a.href = SITE_CONFIG.whatsapp;
-      a.style.display = "";
-    }
-  });
-
-  document.querySelectorAll("a").forEach((a) => {
-    const txt = (a.textContent || "").trim().toLowerCase();
-    if (["contact", "kontakt", "обсудить проект", "заказать цифровую систему", "order digital system"].includes(txt)) {
-      a.href = "contact.html";
-      a.removeAttribute("data-link-key");
-      a.style.pointerEvents = "auto";
-    }
-  });
+  // Contact channels are disabled.
 }
 
 function applyTheme(mode) {
@@ -148,60 +121,8 @@ function initFloatingContact() {
   });
 }
 
-async function sendMailForm(e) {
-  e.preventDefault();
-  return false; // Public submissions disabled.
-
-  const form = e.target;
-  const status = form.querySelector("[data-form-status]");
-  if (!form.checkValidity()) {
-    form.reportValidity();
-    trackB26Event("form_error", { reason: "client_validation" });
-    return false;
-  }
-
-  const fd = new FormData(form);
-  const lang = getBrowserLang();
-  const subject = NAV_DICT[lang]?.email_subject || NAV_DICT.ru.email_subject;
-
-  const fields = Object.fromEntries(
-    Array.from(fd.entries(), ([key, value]) => [key, String(value).trim()])
-  );
-
-  trackB26Event("form_submit", { delivery: form.dataset.endpoint ? "post" : "mailto" });
-
-  if (form.dataset.endpoint) {
-    if (status) status.textContent = "Отправляем заявку…";
-    try {
-      const response = await fetch(form.dataset.endpoint, {
-        method: "POST",
-        credentials: "same-origin",
-        headers: { "Content-Type": "application/json", "Accept": "application/json" },
-        body: JSON.stringify(fields)
-      });
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      if (status) status.textContent = "Заявка отправлена. Спасибо — следующий шаг придёт по указанному контакту.";
-      trackB26Event("form_success");
-      form.reset();
-    } catch (error) {
-      if (status) status.textContent = "Автоматическая отправка не выполнена. Используйте Email, Telegram или WhatsApp.";
-      trackB26Event("form_error", { reason: "delivery" });
-    }
-    return false;
-  }
-
-  const body = [
-    "Имя: " + fields.name,
-    "Email: " + fields.email,
-    "Ниша / деятельность: " + fields.business,
-    "Ссылка: " + fields.link,
-    "",
-    "Что нужно собрать:",
-    fields.message
-  ].join("\n");
-
-  if (status) status.textContent = "Открываем почтовое приложение. Заявка будет отправлена только после вашего подтверждения.";
-  location.href = "mailto:" + SITE_CONFIG.email + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+async function sendMailForm(event) {
+  event.preventDefault();
   return false;
 }
 
@@ -226,8 +147,6 @@ function initAnalyticsHooks() {
     const href = link.getAttribute("href") || "";
     if (link.dataset.analytics === "hero_cta_click") trackB26Event("hero_cta_click");
     if (link.closest(".b26-case-v14")) trackB26Event("portfolio_case_click", { href });
-    if (href.startsWith("mailto:")) trackB26Event("email_click");
-    if (href.includes("t.me/") || href.includes("wa.me/")) trackB26Event("messenger_click", { channel: href.includes("t.me/") ? "telegram" : "whatsapp" });
   });
 }
 
