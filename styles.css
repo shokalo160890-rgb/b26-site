@@ -5697,3 +5697,25 @@ body.light-theme .b26-cube-face strong { color: #214a9a; }
     transform: none !important;
   }
 }
+
+/* B26 CONTACT SAFE MODE */
+.floating-contact-widget,
+.final-floating-contact,
+.contact-floating,
+.floating-contact,
+.contact-fab,
+.fab-contact,
+.quick-contact,
+.contact-widget,
+.social-floating,
+.floating-actions {
+  display: none !important;
+}
+
+.b26-contact-paused {
+  display: inline-block;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid currentColor;
+  border-radius: 0.5rem;
+  opacity: 0.7;
+}

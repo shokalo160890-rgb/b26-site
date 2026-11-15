@@ -1,9 +1,5 @@
 
-const SITE_CONFIG = {
-  telegram: "https://t.me/shokalo160890",
-  whatsapp: "https://wa.me/?text=" + encodeURIComponent("Здравствуйте, хочу заказать цифровую инфраструктуру для бизнеса"),
-  email: "b26online@gmail.com"
-};
+const SITE_CONFIG = Object.freeze({telegram: "", whatsapp: "", email: ""});
 
 const B26_ANALYTICS_EVENTS = Object.freeze([
   "page_view",
@@ -154,6 +150,7 @@ function initFloatingContact() {
 
 async function sendMailForm(e) {
   e.preventDefault();
+  return false; // Public submissions disabled.
 
   const form = e.target;
   const status = form.querySelector("[data-form-status]");
@@ -547,7 +544,7 @@ function initContactFeedback() {
 
 document.addEventListener("DOMContentLoaded", () => {
   applyNavLanguage();
-  wireLinks();
+  // Public contact channels are paused.
   initTheme();
   initFloatingContact();
   initReveal();
@@ -615,57 +612,5 @@ document.addEventListener("DOMContentLoaded", function () {
     btn.addEventListener("click", function () {
       setTimeout(updateThemeButton, 0);
     });
-  });
-});
-
-
-/* ONE FINAL FLOATING CONTACT BUTTON */
-document.addEventListener("DOMContentLoaded", function () {
-  const oldSelectors = [
-    ".floating-contact-widget",
-    ".contact-floating",
-    ".floating-contact",
-    ".contact-fab",
-    ".fab-contact",
-    ".quick-contact",
-    ".contact-widget",
-    ".social-floating",
-    ".floating-actions"
-  ];
-
-  oldSelectors.forEach(function (selector) {
-    document.querySelectorAll(selector).forEach(function (el) {
-      el.remove();
-    });
-  });
-
-  const final = document.createElement("div");
-  final.className = "final-floating-contact";
-  final.innerHTML = `
-    <button class="final-floating-contact-btn" type="button" aria-label="Открыть контакты">✉</button>
-    <div class="final-floating-contact-menu" aria-hidden="true">
-      <a href="mailto:b26online@gmail.com?subject=${encodeURIComponent("Заявка на цифровую инфраструктуру")}">Email</a>
-      <a href="https://t.me/shokalo160890" target="_blank" rel="noopener">Telegram</a>
-      <a href="https://wa.me/?text=${encodeURIComponent("Здравствуйте, хочу заказать цифровую инфраструктуру для бизнеса")}" target="_blank" rel="noopener">WhatsApp</a>
-    </div>
-  `;
-
-  document.body.appendChild(final);
-
-  const btn = final.querySelector(".final-floating-contact-btn");
-  const menu = final.querySelector(".final-floating-contact-menu");
-
-  btn.addEventListener("click", function (e) {
-    e.preventDefault();
-    e.stopPropagation();
-    final.classList.toggle("active");
-    menu.setAttribute("aria-hidden", final.classList.contains("active") ? "false" : "true");
-  });
-
-  document.addEventListener("click", function (e) {
-    if (!final.contains(e.target)) {
-      final.classList.remove("active");
-      menu.setAttribute("aria-hidden", "true");
-    }
   });
 });
