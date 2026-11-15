@@ -29,7 +29,7 @@ function trackB26Event(name, detail = {}) {
 
   // Privacy-safe integration hook. No third-party tracker is loaded here.
   window.dispatchEvent(new CustomEvent("b26:analytics", { detail: payload }));
-  if (Array.isArray(window.dataLayer)) window.dataLayer.push(payload);
+  // No analytics export before consent.
 }
 
 window.B26_ANALYTICS_EVENTS = B26_ANALYTICS_EVENTS;
